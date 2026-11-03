@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#153f35">
+<title>CLAW Link</title>
+<style>
+:root{color-scheme:light;--ink:#173f35;--muted:#607568;--line:#dce5dc;--paper:#f1f4ef;--green:#184f3e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:1056px;margin:auto;padding:calc(24px + env(safe-area-inset-top,0px)) max(20px,env(safe-area-inset-right,0px)) calc(180px + env(safe-area-inset-bottom,0px)) max(20px,env(safe-area-inset-left,0px))}
+header{display:flex;align-items:center;gap:12px;padding-bottom:23px;border-bottom:1px solid #d4ded3}
+.logo{width:48px;height:48px;flex:none;display:grid;place-items:center;border-radius:14px;background:var(--ink);color:#d7efad;font-size:29px;font-weight:800}
+.brand{font-size:16px;letter-spacing:2px;font-weight:800}.brand small{display:block;font-size:12px;font-weight:450;letter-spacing:0;color:var(--muted);margin-top:2px}
+.edition{margin-left:auto;padding:6px 10px;border-radius:99px;background:#e1eada;white-space:nowrap;font-size:11px;font-weight:700;letter-spacing:.8px}
+.hero{padding:38px 0 28px;max-width:650px}.eyebrow{font-size:10px;letter-spacing:2px;font-weight:750;color:#5d7766;margin:0 0 12px}
+h1{font-size:clamp(32px,5vw,49px);line-height:1.12;letter-spacing:-1.8px;margin:0 0 15px;font-weight:750}
+.hero>p:last-child{margin:0;color:var(--muted);max-width:510px}
+.grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:20px;align-items:start}
+.card{min-width:0;background:white;border:1px solid var(--line);border-radius:22px;padding:26px;margin-bottom:20px;box-shadow:0 3px 10px #163c3503}
+h2{font-size:23px;line-height:1.25;letter-spacing:-.6px;margin:0 0 14px}
+.statusline{display:flex;align-items:flex-start;gap:8px;font-size:14px;margin:0 0 20px;color:var(--muted)}
+.statusline svg{flex:none;margin-top:3px;width:17px;height:17px}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+button{appearance:none;border:1px solid transparent;background:var(--green);color:white;padding:12px 17px;border-radius:11px;font:inherit;font-size:14px;line-height:1.4;font-weight:650;cursor:pointer;min-height:46px}
+button.secondary{background:#edf2e8;color:#355745;border-color:#dfe7d8}
+button:disabled{opacity:.42;cursor:default}button:focus-visible,summary:focus-visible{outline:3px solid #84a851;outline-offset:4px}
+.readout{position:relative;background:#edf4e7;border:1px solid #e1ead9;border-radius:16px;padding:23px;margin:24px 0 18px;overflow:hidden}
+.readout .eyebrow{color:#53724e;margin-bottom:6px;letter-spacing:1.6px}
+#count{display:block;font-size:70px;line-height:1.15;letter-spacing:-3px;font-weight:650;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.readout small{display:block;font-size:12px;color:#64785b;margin-top:10px}
+#reply{font-size:13px;color:var(--muted);min-height:21px;margin:12px 0 0;overflow-wrap:anywhere}
+.steps{list-style:none;padding:0;margin:20px 0 0;counter-reset:step}.steps li{position:relative;counter-increment:step;padding:0 0 18px 37px;color:var(--muted);font-size:13px}
+.steps li:last-child{padding-bottom:0}.steps li:before{content:counter(step,decimal-leading-zero);position:absolute;left:0;top:1px;color:#74915b;font-size:11px;font-weight:800}
+.steps strong{display:block;font-size:14px;color:var(--ink);font-weight:650;margin-bottom:2px}
+.note{font-size:12px;line-height:1.65;color:var(--muted)}
+.rule{height:1px;background:var(--line);margin:21px 0 15px}
+details.card{grid-column:1/-1;padding:0;overflow:hidden}summary{cursor:pointer;list-style:none;padding:21px 26px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:14px;font-weight:650}summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font-size:22px;font-weight:400;color:#6e8468}details[open] summary:after{content:"−"}details[open] summary{border-bottom:1px solid var(--line)}
+.detail-body{padding:20px 26px}dl{display:grid;grid-template-columns:140px minmax(0,1fr);gap:10px 18px;margin:12px 0}
+dt{font-size:12px;color:var(--muted)}dd{margin:0;font-size:12px;overflow-wrap:anywhere;font-family:ui-monospace,monospace}
+#js{font-size:13px;margin:0 0 15px}
+pre{font:12px/1.8 ui-monospace,SFMono-Regular,Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;max-height:240px;overflow:auto;margin:0;color:#496355}
+footer{display:flex;justify-content:space-between;gap:12px;color:#788679;font-size:11px;padding:8px 2px 0}
+@media(max-width:660px){main{padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}.grid{grid-template-columns:1fr;gap:0}.hero{padding:30px 0 25px}.card{padding:23px;border-radius:20px}.hero>p:last-child{font-size:14px}h1{font-size:35px}.edition{font-size:9px;padding:5px 8px}.brand{font-size:14px;letter-spacing:1.5px}.brand small{font-size:11px}.logo{width:42px;height:42px;font-size:25px}summary{padding:20px 23px}.detail-body{padding:19px 23px}dl{grid-template-columns:1fr;gap:3px}dd{margin-bottom:10px}footer{flex-direction:column;gap:3px}#count{font-size:64px}}
+@media(prefers-reduced-motion:no-preference){button{transition:background .15s,opacity .15s}button:not(:disabled):hover{filter:brightness(.94)}}
+</style>
+</head>
+<body>
+<main>
+<header><div class="logo" aria-hidden="true">C</div><div class="brand">CLAW / LINK<small>Your orthosis, connected.</small></div><span class="edition">LOCAL EDITION</span></header>
+<section class="hero"><p class="eyebrow">A CONNECTION WITHIN REACH</p><h1>Stay connected.<br>Wherever you go.</h1><p>Connect directly to your Raspberry Pi over Bluetooth. Your interface travels with you.</p></section>
+<div class="grid">
+<section class="card">
+<p class="eyebrow">01 / YOUR DEVICE</p><h2>Connect your orthosis</h2>
+<div class="statusline"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m7 7 10 10-5 4V3l5 4L7 17"/></svg><span id="state" role="status">Disconnected</span></div>
+<div class="actions"><button id="connect" disabled>Connect to Pi</button><button class="secondary" id="disconnect" disabled>Disconnect</button></div>
+<div class="readout"><p class="eyebrow">LIVE TEST COUNTER</p><strong id="count" aria-label="Live test counter">—</strong><small>Updates arrive from the Pi while subscribed.</small></div>
+<button id="ping" class="secondary" disabled>Send test ping <span aria-hidden="true">↗</span></button><p id="reply" role="status">Waiting for data.</p>
+</section>
+<section class="card">
+<p class="eyebrow">02 / GET STARTED</p><h2>A little setup.<br>Then you’re connected.</h2>
+<ol class="steps"><li><strong>Start your Pi</strong>Run the BLE server and leave it running.</li><li><strong>Choose your device</strong>Turn on Bluetooth, tap Connect to Pi, and select your orthosis.</li><li><strong>Check the link</strong>Watch the counter update. Send a test ping and look for PONG.</li></ol>
+<div class="rule"></div><p class="note">Saved as a single HTML file. Once downloaded, this interface needs no internet or browser cache. Keep the original under your phone’s local files so you can reopen it.</p>
+<p class="note">Use one connected tab at a time.</p>
+</section>
+<details class="card"><summary>Connection log</summary><div class="detail-body"><pre id="log" aria-live="polite">Ready.</pre></div></details>
+<details class="card"><summary>Technical details</summary><div class="detail-body"><p id="js">JavaScript has not run. Open this file in a browser that supports Bluetooth.</p><dl><dt>Bluetooth API</dt><dd id="api">—</dd><dt>Secure context</dt><dd id="secure">—</dd><dt>Protocol</dt><dd id="protocol">—</dd><dt>Page address</dt><dd id="url">—</dd></dl><p class="note">A file: address means a local file. An https: address means a hosted copy. Bluetooth support depends on the browser.</p></div></details>
+</div>
+<footer><span>CLAW · Connection prototype</span><span>Local edition 0.2 · No EMG or motor control</span></footer>
+</main>
+<script>
+'use strict';
+const SERVICE='802b1000-6a92-4a6f-9b2b-769c88951a01';
+const COMMAND='802b1001-6a92-4a6f-9b2b-769c88951a01';
+const STATUS='802b1002-6a92-4a6f-9b2b-769c88951a01';
+const el=id=>document.getElementById(id);
+let device=null,command=null,characteristic=null,pingTimer=null,busy=false;
+const decoder=new TextDecoder();
+function describe(e){if(e?.message)return (e.name?e.name+': ':'')+e.message;if(typeof e==='string')return e;try{return JSON.stringify(e)??String(e);}catch{return String(e);}}
+function log(s){el('log').textContent=(new Date().toLocaleTimeString()+' '+s+'\n'+el('log').textContent).slice(0,8000);}
+function reset(){if(characteristic)characteristic.removeEventListener('characteristicvaluechanged',onValue);clearTimeout(pingTimer);pingTimer=null;command=null;characteristic=null;el('connect').disabled=!navigator.bluetooth;el('ping').disabled=true;el('disconnect').disabled=true;el('state').textContent='Disconnected';el('count').textContent='—';}
+function onValue(event){try{const value=event.target?.value??event.currentTarget?.value;if(!value){log('Notification event has no value');return;}const msg=decoder.decode(value);if(msg.startsWith('T:'))el('count').textContent=msg.slice(2);else{log('Pi → '+msg);if(msg==='PONG'){clearTimeout(pingTimer);pingTimer=null;el('ping').disabled=false;el('reply').textContent='PONG received.';}}}catch(e){log('Receive error: '+describe(e));}}
+el('js').textContent='JavaScript is running.';
+el('url').textContent=location.href;el('protocol').textContent=location.protocol;
+el('secure').textContent=String(window.isSecureContext);
+el('api').textContent=navigator.bluetooth?'Available':'Unavailable';
+reset();
+el('connect').onclick=async()=>{
+ if(busy)return;busy=true;el('connect').disabled=true;
+ try{
+  device=await navigator.bluetooth.requestDevice({filters:[{services:[SERVICE]}]});
+  device.addEventListener('gattserverdisconnected',()=>{reset();log('Bluetooth disconnect event.');},{once:true});
+  const server=await device.gatt.connect();
+  const service=await server.getPrimaryService(SERVICE);
+  command=await service.getCharacteristic(COMMAND);
+  characteristic=await service.getCharacteristic(STATUS);
+  characteristic.addEventListener('characteristicvaluechanged',onValue);
+  await characteristic.startNotifications();
+  el('state').textContent='Connected; notifications requested';
+  el('ping').disabled=false;el('disconnect').disabled=false;
+  log('Connected to '+(device.name||'selected device')+'.');
+ }catch(e){log('Connect error: '+describe(e));device?.gatt?.disconnect();reset();}
+ finally{busy=false;}
+};
+el('ping').onclick=async()=>{
+ if(!command||pingTimer)return;
+ el('ping').disabled=true;el('reply').textContent='Waiting for PONG…';
+ pingTimer=setTimeout(()=>{pingTimer=null;el('ping').disabled=!command;el('reply').textContent='No PONG within 5 seconds.';},5000);
+ try{await command.writeValueWithResponse(new TextEncoder().encode('PING'));log('Phone → PING');}
+ catch(e){clearTimeout(pingTimer);pingTimer=null;el('ping').disabled=!command;el('reply').textContent='PING failed';log('Write error: '+describe(e));}
+};
+el('disconnect').onclick=async()=>{
+ if(busy)return;busy=true;el('disconnect').disabled=true;el('ping').disabled=true;
+ const current=device,currentChar=characteristic;
+ try{
+  if(current?.gatt?.connected&&currentChar){
+   await Promise.race([currentChar.stopNotifications(),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Stop notifications timed out')),3000))]);
+   log('Notifications stopped.');
+  }
+ }catch(e){log('Cleanup: '+describe(e));}
+ finally{current?.gatt?.disconnect();reset();busy=false;}
+};
+</script>
+</body>
+</html>
