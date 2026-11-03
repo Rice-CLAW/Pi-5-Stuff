@@ -13,7 +13,30 @@ command=await service.getCharacteristic(COMMAND);status=await service.getCharact
 status.addEventListener('characteristicvaluechanged',received);await status.startNotifications();
 $('connection').textContent='Connected · '+(device.name||'CLAW-Pi');$('disconnect').disabled=false;$('ping').disabled=false;log('Connected and subscribed to updates.');
 }catch(e){if(device?.gatt?.connected)device.gatt.disconnect();reset();log(e.message);}};
-$('disconnect').onclick=()=>device?.gatt?.disconnect();
+$('disconnect').onclick = async () => {
+  const currentDevice = device;
+  const currentStatus = status;
+
+  $('disconnect').disabled = true;
+  $('ping').disabled = true;
+
+  try {
+    if (currentDevice?.gatt?.connected && currentStatus) {
+      log('Stopping notifications…');
+      await currentStatus.stopNotifications();
+      currentStatus.removeEventListener(
+        'characteristicvaluechanged',
+        received
+      );
+      log('Notifications stopped.');
+    }
+  } catch (error) {
+    log('Notification cleanup: ' + error.message);
+  } finally {
+    currentDevice?.gatt?.disconnect();
+    reset();
+  }
+};
 $('ping').onclick=async()=>{if(!command)return;$('ping').disabled=true;try{await command.writeValueWithResponse(new TextEncoder().encode('PING'));$('reply').textContent='Waiting for PONG…';pendingPing=setTimeout(()=>{pendingPing=null;$('ping').disabled=!command;$('reply').textContent='No PONG received within 5 seconds.';},5000);log('Phone → PING');}catch(e){$('ping').disabled=!command;log(e.message);}};
 const FILES=['./','./index.html','./style.css','./app.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'], CACHE='claw-link-v1';
 async function checkCache(){const cache=await caches.open(CACHE);const ok=(await Promise.all(FILES.map(f=>cache.match(new URL(f,location.href))))).every(Boolean);$('cache').textContent=ok?'Offline files verified locally. Reopen offline to test.':'Offline files incomplete. Tap Save for offline.';return ok;}
