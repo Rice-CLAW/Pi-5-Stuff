@@ -1,0 +1,13 @@
+{
+  "dataset": "mendeley",
+  "data_dir": null,
+  "train_datasets": null,
+  "train_reps": null,
+  "max_sessions": null,
+  "feature_set": "hudgins",
+  "window": null,
+  "step": null,
+  "threshold": null,
+  "seed": 42,
+  "output_dir": null
+}

@@ -1,0 +1,962 @@
+[
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G1.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "1_raw_data_09-32_11.04.16",
+    "gesture": 1,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G2.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "1_raw_data_09-32_11.04.16",
+    "gesture": 2,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G3.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "1_raw_data_09-32_11.04.16",
+    "gesture": 3,
+    "split": "train",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G4.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "1_raw_data_09-32_11.04.16",
+    "gesture": 4,
+    "split": "train",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G5.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "1_raw_data_09-32_11.04.16",
+    "gesture": 5,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G6.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "1_raw_data_09-32_11.04.16",
+    "gesture": 6,
+    "split": "train",
+    "windows": 21
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G1.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "2_raw_data_09-34_11.04.16",
+    "gesture": 1,
+    "split": "test",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G2.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "2_raw_data_09-34_11.04.16",
+    "gesture": 2,
+    "split": "test",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G3.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "2_raw_data_09-34_11.04.16",
+    "gesture": 3,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G4.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "2_raw_data_09-34_11.04.16",
+    "gesture": 4,
+    "split": "test",
+    "windows": 21
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G5.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "2_raw_data_09-34_11.04.16",
+    "gesture": 5,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G6.csv",
+    "session": "subject_03/2016-04-11",
+    "trial": "2_raw_data_09-34_11.04.16",
+    "gesture": 6,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G1.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "1_raw_data_18-02_24.04.16",
+    "gesture": 1,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G2.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "1_raw_data_18-02_24.04.16",
+    "gesture": 2,
+    "split": "test",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G3.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "1_raw_data_18-02_24.04.16",
+    "gesture": 3,
+    "split": "test",
+    "windows": 29
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G4.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "1_raw_data_18-02_24.04.16",
+    "gesture": 4,
+    "split": "test",
+    "windows": 30
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G5.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "1_raw_data_18-02_24.04.16",
+    "gesture": 5,
+    "split": "test",
+    "windows": 30
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G6.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "1_raw_data_18-02_24.04.16",
+    "gesture": 6,
+    "split": "test",
+    "windows": 27
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G1.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "2_raw_data_18-03_24.04.16",
+    "gesture": 1,
+    "split": "train",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G2.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "2_raw_data_18-03_24.04.16",
+    "gesture": 2,
+    "split": "train",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G3.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "2_raw_data_18-03_24.04.16",
+    "gesture": 3,
+    "split": "train",
+    "windows": 20
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G4.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "2_raw_data_18-03_24.04.16",
+    "gesture": 4,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G5.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "2_raw_data_18-03_24.04.16",
+    "gesture": 5,
+    "split": "train",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G6.csv",
+    "session": "subject_04/2016-04-24",
+    "trial": "2_raw_data_18-03_24.04.16",
+    "gesture": 6,
+    "split": "train",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G1.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "1_raw_data_12-14_23.03.16",
+    "gesture": 1,
+    "split": "train",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G2.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "1_raw_data_12-14_23.03.16",
+    "gesture": 2,
+    "split": "train",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G3.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "1_raw_data_12-14_23.03.16",
+    "gesture": 3,
+    "split": "train",
+    "windows": 21
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G4.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "1_raw_data_12-14_23.03.16",
+    "gesture": 4,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G5.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "1_raw_data_12-14_23.03.16",
+    "gesture": 5,
+    "split": "train",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G6.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "1_raw_data_12-14_23.03.16",
+    "gesture": 6,
+    "split": "train",
+    "windows": 21
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G1.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "2_raw_data_12-16_23.03.16",
+    "gesture": 1,
+    "split": "test",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G2.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "2_raw_data_12-16_23.03.16",
+    "gesture": 2,
+    "split": "test",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G3.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "2_raw_data_12-16_23.03.16",
+    "gesture": 3,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G4.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "2_raw_data_12-16_23.03.16",
+    "gesture": 4,
+    "split": "test",
+    "windows": 21
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G5.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "2_raw_data_12-16_23.03.16",
+    "gesture": 5,
+    "split": "test",
+    "windows": 21
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G6.csv",
+    "session": "subject_08/2016-03-23",
+    "trial": "2_raw_data_12-16_23.03.16",
+    "gesture": 6,
+    "split": "test",
+    "windows": 25
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G1.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "1_raw_data_09-50_15.04.16",
+    "gesture": 1,
+    "split": "train",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G2.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "1_raw_data_09-50_15.04.16",
+    "gesture": 2,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G3.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "1_raw_data_09-50_15.04.16",
+    "gesture": 3,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G4.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "1_raw_data_09-50_15.04.16",
+    "gesture": 4,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G5.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "1_raw_data_09-50_15.04.16",
+    "gesture": 5,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G6.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "1_raw_data_09-50_15.04.16",
+    "gesture": 6,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G1.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "2_raw_data_09-51_15.04.16",
+    "gesture": 1,
+    "split": "test",
+    "windows": 25
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G2.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "2_raw_data_09-51_15.04.16",
+    "gesture": 2,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G3.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "2_raw_data_09-51_15.04.16",
+    "gesture": 3,
+    "split": "test",
+    "windows": 21
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G4.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "2_raw_data_09-51_15.04.16",
+    "gesture": 4,
+    "split": "test",
+    "windows": 25
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G5.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "2_raw_data_09-51_15.04.16",
+    "gesture": 5,
+    "split": "test",
+    "windows": 27
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G6.csv",
+    "session": "subject_14/2016-04-15",
+    "trial": "2_raw_data_09-51_15.04.16",
+    "gesture": 6,
+    "split": "test",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G1.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "1_raw_data_12-10_26.04.16",
+    "gesture": 1,
+    "split": "test",
+    "windows": 20
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G2.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "1_raw_data_12-10_26.04.16",
+    "gesture": 2,
+    "split": "test",
+    "windows": 27
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G3.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "1_raw_data_12-10_26.04.16",
+    "gesture": 3,
+    "split": "test",
+    "windows": 27
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G4.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "1_raw_data_12-10_26.04.16",
+    "gesture": 4,
+    "split": "test",
+    "windows": 27
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G5.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "1_raw_data_12-10_26.04.16",
+    "gesture": 5,
+    "split": "test",
+    "windows": 30
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G6.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "1_raw_data_12-10_26.04.16",
+    "gesture": 6,
+    "split": "test",
+    "windows": 27
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G1.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "2_raw_data_12-11_26.04.16",
+    "gesture": 1,
+    "split": "train",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G2.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "2_raw_data_12-11_26.04.16",
+    "gesture": 2,
+    "split": "train",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G3.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "2_raw_data_12-11_26.04.16",
+    "gesture": 3,
+    "split": "train",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G4.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "2_raw_data_12-11_26.04.16",
+    "gesture": 4,
+    "split": "train",
+    "windows": 28
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G5.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "2_raw_data_12-11_26.04.16",
+    "gesture": 5,
+    "split": "train",
+    "windows": 26
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G6.csv",
+    "session": "subject_19/2016-04-26",
+    "trial": "2_raw_data_12-11_26.04.16",
+    "gesture": 6,
+    "split": "train",
+    "windows": 26
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G1.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "1_raw_data_12-37_28.03.16",
+    "gesture": 1,
+    "split": "test",
+    "windows": 21
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G2.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "1_raw_data_12-37_28.03.16",
+    "gesture": 2,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G3.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "1_raw_data_12-37_28.03.16",
+    "gesture": 3,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G4.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "1_raw_data_12-37_28.03.16",
+    "gesture": 4,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G5.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "1_raw_data_12-37_28.03.16",
+    "gesture": 5,
+    "split": "test",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G6.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "1_raw_data_12-37_28.03.16",
+    "gesture": 6,
+    "split": "test",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G1.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "2_raw_data_12-39_28.03.16",
+    "gesture": 1,
+    "split": "train",
+    "windows": 21
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G2.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "2_raw_data_12-39_28.03.16",
+    "gesture": 2,
+    "split": "train",
+    "windows": 25
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G3.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "2_raw_data_12-39_28.03.16",
+    "gesture": 3,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G4.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "2_raw_data_12-39_28.03.16",
+    "gesture": 4,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G5.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "2_raw_data_12-39_28.03.16",
+    "gesture": 5,
+    "split": "train",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G6.csv",
+    "session": "subject_22/2016-03-28",
+    "trial": "2_raw_data_12-39_28.03.16",
+    "gesture": 6,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G1.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "1_raw_data_10-16_12.04.16",
+    "gesture": 1,
+    "split": "test",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G2.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "1_raw_data_10-16_12.04.16",
+    "gesture": 2,
+    "split": "test",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G3.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "1_raw_data_10-16_12.04.16",
+    "gesture": 3,
+    "split": "test",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G4.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "1_raw_data_10-16_12.04.16",
+    "gesture": 4,
+    "split": "test",
+    "windows": 27
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G5.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "1_raw_data_10-16_12.04.16",
+    "gesture": 5,
+    "split": "test",
+    "windows": 27
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G6.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "1_raw_data_10-16_12.04.16",
+    "gesture": 6,
+    "split": "test",
+    "windows": 25
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G1.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "2_raw_data_10-17_12.04.16",
+    "gesture": 1,
+    "split": "train",
+    "windows": 25
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G2.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "2_raw_data_10-17_12.04.16",
+    "gesture": 2,
+    "split": "train",
+    "windows": 29
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G3.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "2_raw_data_10-17_12.04.16",
+    "gesture": 3,
+    "split": "train",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G4.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "2_raw_data_10-17_12.04.16",
+    "gesture": 4,
+    "split": "train",
+    "windows": 28
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G5.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "2_raw_data_10-17_12.04.16",
+    "gesture": 5,
+    "split": "train",
+    "windows": 30
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G6.csv",
+    "session": "subject_24/2016-04-12",
+    "trial": "2_raw_data_10-17_12.04.16",
+    "gesture": 6,
+    "split": "train",
+    "windows": 28
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G1.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "1_raw_data_12-10_15.04.16",
+    "gesture": 1,
+    "split": "train",
+    "windows": 17
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G2.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "1_raw_data_12-10_15.04.16",
+    "gesture": 2,
+    "split": "train",
+    "windows": 16
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G3.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "1_raw_data_12-10_15.04.16",
+    "gesture": 3,
+    "split": "train",
+    "windows": 18
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G4.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "1_raw_data_12-10_15.04.16",
+    "gesture": 4,
+    "split": "train",
+    "windows": 20
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G5.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "1_raw_data_12-10_15.04.16",
+    "gesture": 5,
+    "split": "train",
+    "windows": 19
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G6.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "1_raw_data_12-10_15.04.16",
+    "gesture": 6,
+    "split": "train",
+    "windows": 20
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G1.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "2_raw_data_12-11_15.04.16",
+    "gesture": 1,
+    "split": "test",
+    "windows": 19
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G2.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "2_raw_data_12-11_15.04.16",
+    "gesture": 2,
+    "split": "test",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G3.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "2_raw_data_12-11_15.04.16",
+    "gesture": 3,
+    "split": "test",
+    "windows": 20
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G4.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "2_raw_data_12-11_15.04.16",
+    "gesture": 4,
+    "split": "test",
+    "windows": 20
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G5.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "2_raw_data_12-11_15.04.16",
+    "gesture": 5,
+    "split": "test",
+    "windows": 18
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G6.csv",
+    "session": "subject_28/2016-04-15",
+    "trial": "2_raw_data_12-11_15.04.16",
+    "gesture": 6,
+    "split": "test",
+    "windows": 21
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G1.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "1_raw_data_11-15_11.04.16",
+    "gesture": 1,
+    "split": "test",
+    "windows": 27
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G2.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "1_raw_data_11-15_11.04.16",
+    "gesture": 2,
+    "split": "test",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G3.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "1_raw_data_11-15_11.04.16",
+    "gesture": 3,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G4.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "1_raw_data_11-15_11.04.16",
+    "gesture": 4,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G5.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "1_raw_data_11-15_11.04.16",
+    "gesture": 5,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G6.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "1_raw_data_11-15_11.04.16",
+    "gesture": 6,
+    "split": "test",
+    "windows": 20
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G1.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "2_raw_data_11-16_11.04.16",
+    "gesture": 1,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G2.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "2_raw_data_11-16_11.04.16",
+    "gesture": 2,
+    "split": "train",
+    "windows": 19
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G3.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "2_raw_data_11-16_11.04.16",
+    "gesture": 3,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G4.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "2_raw_data_11-16_11.04.16",
+    "gesture": 4,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G5.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "2_raw_data_11-16_11.04.16",
+    "gesture": 5,
+    "split": "train",
+    "windows": 20
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G6.csv",
+    "session": "subject_31/2016-04-11",
+    "trial": "2_raw_data_11-16_11.04.16",
+    "gesture": 6,
+    "split": "train",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G1.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "1_raw_data_09-49_12.04.16",
+    "gesture": 1,
+    "split": "test",
+    "windows": 25
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G2.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "1_raw_data_09-49_12.04.16",
+    "gesture": 2,
+    "split": "test",
+    "windows": 20
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G3.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "1_raw_data_09-49_12.04.16",
+    "gesture": 3,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G4.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "1_raw_data_09-49_12.04.16",
+    "gesture": 4,
+    "split": "test",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G5.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "1_raw_data_09-49_12.04.16",
+    "gesture": 5,
+    "split": "test",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G6.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "1_raw_data_09-49_12.04.16",
+    "gesture": 6,
+    "split": "test",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G1.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "2_raw_data_09-50_12.04.16",
+    "gesture": 1,
+    "split": "train",
+    "windows": 26
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G2.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "2_raw_data_09-50_12.04.16",
+    "gesture": 2,
+    "split": "train",
+    "windows": 24
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G3.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "2_raw_data_09-50_12.04.16",
+    "gesture": 3,
+    "split": "train",
+    "windows": 22
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G4.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "2_raw_data_09-50_12.04.16",
+    "gesture": 4,
+    "split": "train",
+    "windows": 23
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G5.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "2_raw_data_09-50_12.04.16",
+    "gesture": 5,
+    "split": "train",
+    "windows": 21
+  },
+  {
+    "file": "/home/wristpower/ml_classification/EMG_data/gestures_csv/subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G6.csv",
+    "session": "subject_33/2016-04-12",
+    "trial": "2_raw_data_09-50_12.04.16",
+    "gesture": 6,
+    "split": "train",
+    "windows": 25
+  }
+]

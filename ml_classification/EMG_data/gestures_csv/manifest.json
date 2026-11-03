@@ -1,0 +1,4574 @@
+[
+  {
+    "file": "subject_01/2016-03-22/1_raw_data_13-12_22.03.16_G0.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_13-12_22.03.16",
+    "gesture": 0,
+    "rows": 41272,
+    "segments": 13
+  },
+  {
+    "file": "subject_01/2016-03-22/1_raw_data_13-12_22.03.16_G1.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_13-12_22.03.16",
+    "gesture": 1,
+    "rows": 3780,
+    "segments": 2
+  },
+  {
+    "file": "subject_01/2016-03-22/1_raw_data_13-12_22.03.16_G2.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_13-12_22.03.16",
+    "gesture": 2,
+    "rows": 3525,
+    "segments": 2
+  },
+  {
+    "file": "subject_01/2016-03-22/1_raw_data_13-12_22.03.16_G3.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_13-12_22.03.16",
+    "gesture": 3,
+    "rows": 3816,
+    "segments": 2
+  },
+  {
+    "file": "subject_01/2016-03-22/1_raw_data_13-12_22.03.16_G4.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_13-12_22.03.16",
+    "gesture": 4,
+    "rows": 3441,
+    "segments": 2
+  },
+  {
+    "file": "subject_01/2016-03-22/1_raw_data_13-12_22.03.16_G5.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_13-12_22.03.16",
+    "gesture": 5,
+    "rows": 3615,
+    "segments": 2
+  },
+  {
+    "file": "subject_01/2016-03-22/1_raw_data_13-12_22.03.16_G6.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_13-12_22.03.16",
+    "gesture": 6,
+    "rows": 3747,
+    "segments": 2
+  },
+  {
+    "file": "subject_01/2016-03-22/2_raw_data_13-13_22.03.16_G0.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_13-13_22.03.16",
+    "gesture": 0,
+    "rows": 37410,
+    "segments": 13
+  },
+  {
+    "file": "subject_01/2016-03-22/2_raw_data_13-13_22.03.16_G1.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_13-13_22.03.16",
+    "gesture": 1,
+    "rows": 3531,
+    "segments": 2
+  },
+  {
+    "file": "subject_01/2016-03-22/2_raw_data_13-13_22.03.16_G2.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_13-13_22.03.16",
+    "gesture": 2,
+    "rows": 3281,
+    "segments": 2
+  },
+  {
+    "file": "subject_01/2016-03-22/2_raw_data_13-13_22.03.16_G3.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_13-13_22.03.16",
+    "gesture": 3,
+    "rows": 3513,
+    "segments": 2
+  },
+  {
+    "file": "subject_01/2016-03-22/2_raw_data_13-13_22.03.16_G4.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_13-13_22.03.16",
+    "gesture": 4,
+    "rows": 3383,
+    "segments": 2
+  },
+  {
+    "file": "subject_01/2016-03-22/2_raw_data_13-13_22.03.16_G5.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_13-13_22.03.16",
+    "gesture": 5,
+    "rows": 3460,
+    "segments": 2
+  },
+  {
+    "file": "subject_01/2016-03-22/2_raw_data_13-13_22.03.16_G6.csv",
+    "subject": 1,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_13-13_22.03.16",
+    "gesture": 6,
+    "rows": 3396,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/1_raw_data_14-19_22.03.16_G0.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_14-19_22.03.16",
+    "gesture": 0,
+    "rows": 51517,
+    "segments": 13
+  },
+  {
+    "file": "subject_02/2016-03-22/1_raw_data_14-19_22.03.16_G1.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_14-19_22.03.16",
+    "gesture": 1,
+    "rows": 3580,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/1_raw_data_14-19_22.03.16_G2.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_14-19_22.03.16",
+    "gesture": 2,
+    "rows": 3489,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/1_raw_data_14-19_22.03.16_G3.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_14-19_22.03.16",
+    "gesture": 3,
+    "rows": 3456,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/1_raw_data_14-19_22.03.16_G4.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_14-19_22.03.16",
+    "gesture": 4,
+    "rows": 3339,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/1_raw_data_14-19_22.03.16_G5.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_14-19_22.03.16",
+    "gesture": 5,
+    "rows": 3256,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/1_raw_data_14-19_22.03.16_G6.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_14-19_22.03.16",
+    "gesture": 6,
+    "rows": 3685,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/2_raw_data_14-21_22.03.16_G0.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_14-21_22.03.16",
+    "gesture": 0,
+    "rows": 43137,
+    "segments": 13
+  },
+  {
+    "file": "subject_02/2016-03-22/2_raw_data_14-21_22.03.16_G1.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_14-21_22.03.16",
+    "gesture": 1,
+    "rows": 3560,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/2_raw_data_14-21_22.03.16_G2.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_14-21_22.03.16",
+    "gesture": 2,
+    "rows": 3288,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/2_raw_data_14-21_22.03.16_G3.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_14-21_22.03.16",
+    "gesture": 3,
+    "rows": 3359,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/2_raw_data_14-21_22.03.16_G4.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_14-21_22.03.16",
+    "gesture": 4,
+    "rows": 3473,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/2_raw_data_14-21_22.03.16_G5.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_14-21_22.03.16",
+    "gesture": 5,
+    "rows": 3600,
+    "segments": 2
+  },
+  {
+    "file": "subject_02/2016-03-22/2_raw_data_14-21_22.03.16_G6.csv",
+    "subject": 2,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_14-21_22.03.16",
+    "gesture": 6,
+    "rows": 3687,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G0.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_09-32_11.04.16",
+    "gesture": 0,
+    "rows": 37649,
+    "segments": 13
+  },
+  {
+    "file": "subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G1.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_09-32_11.04.16",
+    "gesture": 1,
+    "rows": 3093,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G2.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_09-32_11.04.16",
+    "gesture": 2,
+    "rows": 3073,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G3.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_09-32_11.04.16",
+    "gesture": 3,
+    "rows": 3290,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G4.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_09-32_11.04.16",
+    "gesture": 4,
+    "rows": 3312,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G5.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_09-32_11.04.16",
+    "gesture": 5,
+    "rows": 3138,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/1_raw_data_09-32_11.04.16_G6.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_09-32_11.04.16",
+    "gesture": 6,
+    "rows": 3013,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G0.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_09-34_11.04.16",
+    "gesture": 0,
+    "rows": 30121,
+    "segments": 13
+  },
+  {
+    "file": "subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G1.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_09-34_11.04.16",
+    "gesture": 1,
+    "rows": 3350,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G2.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_09-34_11.04.16",
+    "gesture": 2,
+    "rows": 3228,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G3.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_09-34_11.04.16",
+    "gesture": 3,
+    "rows": 3196,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G4.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_09-34_11.04.16",
+    "gesture": 4,
+    "rows": 3109,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G5.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_09-34_11.04.16",
+    "gesture": 5,
+    "rows": 3140,
+    "segments": 2
+  },
+  {
+    "file": "subject_03/2016-04-11/2_raw_data_09-34_11.04.16_G6.csv",
+    "subject": 3,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_09-34_11.04.16",
+    "gesture": 6,
+    "rows": 3073,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G0.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_18-02_24.04.16",
+    "gesture": 0,
+    "rows": 36502,
+    "segments": 13
+  },
+  {
+    "file": "subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G1.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_18-02_24.04.16",
+    "gesture": 1,
+    "rows": 3155,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G2.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_18-02_24.04.16",
+    "gesture": 2,
+    "rows": 3404,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G3.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_18-02_24.04.16",
+    "gesture": 3,
+    "rows": 3976,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G4.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_18-02_24.04.16",
+    "gesture": 4,
+    "rows": 4092,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G5.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_18-02_24.04.16",
+    "gesture": 5,
+    "rows": 4191,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/1_raw_data_18-02_24.04.16_G6.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_18-02_24.04.16",
+    "gesture": 6,
+    "rows": 3787,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G0.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_18-03_24.04.16",
+    "gesture": 0,
+    "rows": 36076,
+    "segments": 13
+  },
+  {
+    "file": "subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G1.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_18-03_24.04.16",
+    "gesture": 1,
+    "rows": 3316,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G2.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_18-03_24.04.16",
+    "gesture": 2,
+    "rows": 3194,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G3.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_18-03_24.04.16",
+    "gesture": 3,
+    "rows": 2899,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G4.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_18-03_24.04.16",
+    "gesture": 4,
+    "rows": 3101,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G5.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_18-03_24.04.16",
+    "gesture": 5,
+    "rows": 3232,
+    "segments": 2
+  },
+  {
+    "file": "subject_04/2016-04-24/2_raw_data_18-03_24.04.16_G6.csv",
+    "subject": 4,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_18-03_24.04.16",
+    "gesture": 6,
+    "rows": 3273,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/1_raw_data_10-28_30.03.16_G0.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "1_raw_data_10-28_30.03.16",
+    "gesture": 0,
+    "rows": 37988,
+    "segments": 13
+  },
+  {
+    "file": "subject_05/2016-03-30/1_raw_data_10-28_30.03.16_G1.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "1_raw_data_10-28_30.03.16",
+    "gesture": 1,
+    "rows": 3448,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/1_raw_data_10-28_30.03.16_G2.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "1_raw_data_10-28_30.03.16",
+    "gesture": 2,
+    "rows": 3092,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/1_raw_data_10-28_30.03.16_G3.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "1_raw_data_10-28_30.03.16",
+    "gesture": 3,
+    "rows": 3111,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/1_raw_data_10-28_30.03.16_G4.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "1_raw_data_10-28_30.03.16",
+    "gesture": 4,
+    "rows": 3047,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/1_raw_data_10-28_30.03.16_G5.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "1_raw_data_10-28_30.03.16",
+    "gesture": 5,
+    "rows": 3234,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/1_raw_data_10-28_30.03.16_G6.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "1_raw_data_10-28_30.03.16",
+    "gesture": 6,
+    "rows": 3198,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/2_raw_data_10-29_30.03.16_G0.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "2_raw_data_10-29_30.03.16",
+    "gesture": 0,
+    "rows": 30069,
+    "segments": 13
+  },
+  {
+    "file": "subject_05/2016-03-30/2_raw_data_10-29_30.03.16_G1.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "2_raw_data_10-29_30.03.16",
+    "gesture": 1,
+    "rows": 3058,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/2_raw_data_10-29_30.03.16_G2.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "2_raw_data_10-29_30.03.16",
+    "gesture": 2,
+    "rows": 3714,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/2_raw_data_10-29_30.03.16_G3.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "2_raw_data_10-29_30.03.16",
+    "gesture": 3,
+    "rows": 3763,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/2_raw_data_10-29_30.03.16_G4.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "2_raw_data_10-29_30.03.16",
+    "gesture": 4,
+    "rows": 3677,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/2_raw_data_10-29_30.03.16_G5.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "2_raw_data_10-29_30.03.16",
+    "gesture": 5,
+    "rows": 2864,
+    "segments": 2
+  },
+  {
+    "file": "subject_05/2016-03-30/2_raw_data_10-29_30.03.16_G6.csv",
+    "subject": 5,
+    "date": "2016-03-30",
+    "recording": "2_raw_data_10-29_30.03.16",
+    "gesture": 6,
+    "rows": 2985,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/1_raw_data_10-38_11.04.16_G0.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_10-38_11.04.16",
+    "gesture": 0,
+    "rows": 30675,
+    "segments": 13
+  },
+  {
+    "file": "subject_06/2016-04-11/1_raw_data_10-38_11.04.16_G1.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_10-38_11.04.16",
+    "gesture": 1,
+    "rows": 3393,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/1_raw_data_10-38_11.04.16_G2.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_10-38_11.04.16",
+    "gesture": 2,
+    "rows": 3330,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/1_raw_data_10-38_11.04.16_G3.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_10-38_11.04.16",
+    "gesture": 3,
+    "rows": 3260,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/1_raw_data_10-38_11.04.16_G4.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_10-38_11.04.16",
+    "gesture": 4,
+    "rows": 3281,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/1_raw_data_10-38_11.04.16_G5.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_10-38_11.04.16",
+    "gesture": 5,
+    "rows": 3944,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/1_raw_data_10-38_11.04.16_G6.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_10-38_11.04.16",
+    "gesture": 6,
+    "rows": 3195,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/2_raw_data_10-40_11.04.16_G0.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_10-40_11.04.16",
+    "gesture": 0,
+    "rows": 30453,
+    "segments": 13
+  },
+  {
+    "file": "subject_06/2016-04-11/2_raw_data_10-40_11.04.16_G1.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_10-40_11.04.16",
+    "gesture": 1,
+    "rows": 2421,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/2_raw_data_10-40_11.04.16_G2.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_10-40_11.04.16",
+    "gesture": 2,
+    "rows": 2913,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/2_raw_data_10-40_11.04.16_G3.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_10-40_11.04.16",
+    "gesture": 3,
+    "rows": 3403,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/2_raw_data_10-40_11.04.16_G4.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_10-40_11.04.16",
+    "gesture": 4,
+    "rows": 3407,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/2_raw_data_10-40_11.04.16_G5.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_10-40_11.04.16",
+    "gesture": 5,
+    "rows": 3150,
+    "segments": 2
+  },
+  {
+    "file": "subject_06/2016-04-11/2_raw_data_10-40_11.04.16_G6.csv",
+    "subject": 6,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_10-40_11.04.16",
+    "gesture": 6,
+    "rows": 2794,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/1_raw_data_18-48_22.03.16_G0.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_18-48_22.03.16",
+    "gesture": 0,
+    "rows": 44406,
+    "segments": 13
+  },
+  {
+    "file": "subject_07/2016-03-22/1_raw_data_18-48_22.03.16_G1.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_18-48_22.03.16",
+    "gesture": 1,
+    "rows": 3806,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/1_raw_data_18-48_22.03.16_G2.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_18-48_22.03.16",
+    "gesture": 2,
+    "rows": 3745,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/1_raw_data_18-48_22.03.16_G3.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_18-48_22.03.16",
+    "gesture": 3,
+    "rows": 3967,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/1_raw_data_18-48_22.03.16_G4.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_18-48_22.03.16",
+    "gesture": 4,
+    "rows": 4256,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/1_raw_data_18-48_22.03.16_G5.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_18-48_22.03.16",
+    "gesture": 5,
+    "rows": 4199,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/1_raw_data_18-48_22.03.16_G6.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_18-48_22.03.16",
+    "gesture": 6,
+    "rows": 4318,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/2_raw_data_18-50_22.03.16_G0.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_18-50_22.03.16",
+    "gesture": 0,
+    "rows": 38235,
+    "segments": 13
+  },
+  {
+    "file": "subject_07/2016-03-22/2_raw_data_18-50_22.03.16_G1.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_18-50_22.03.16",
+    "gesture": 1,
+    "rows": 3717,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/2_raw_data_18-50_22.03.16_G2.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_18-50_22.03.16",
+    "gesture": 2,
+    "rows": 3906,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/2_raw_data_18-50_22.03.16_G3.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_18-50_22.03.16",
+    "gesture": 3,
+    "rows": 4416,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/2_raw_data_18-50_22.03.16_G4.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_18-50_22.03.16",
+    "gesture": 4,
+    "rows": 4667,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/2_raw_data_18-50_22.03.16_G5.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_18-50_22.03.16",
+    "gesture": 5,
+    "rows": 4215,
+    "segments": 2
+  },
+  {
+    "file": "subject_07/2016-03-22/2_raw_data_18-50_22.03.16_G6.csv",
+    "subject": 7,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_18-50_22.03.16",
+    "gesture": 6,
+    "rows": 4787,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G0.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-14_23.03.16",
+    "gesture": 0,
+    "rows": 41593,
+    "segments": 13
+  },
+  {
+    "file": "subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G1.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-14_23.03.16",
+    "gesture": 1,
+    "rows": 3166,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G2.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-14_23.03.16",
+    "gesture": 2,
+    "rows": 3358,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G3.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-14_23.03.16",
+    "gesture": 3,
+    "rows": 2908,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G4.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-14_23.03.16",
+    "gesture": 4,
+    "rows": 3053,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G5.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-14_23.03.16",
+    "gesture": 5,
+    "rows": 3236,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/1_raw_data_12-14_23.03.16_G6.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-14_23.03.16",
+    "gesture": 6,
+    "rows": 2966,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G0.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-16_23.03.16",
+    "gesture": 0,
+    "rows": 38671,
+    "segments": 13
+  },
+  {
+    "file": "subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G1.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-16_23.03.16",
+    "gesture": 1,
+    "rows": 3302,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G2.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-16_23.03.16",
+    "gesture": 2,
+    "rows": 3179,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G3.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-16_23.03.16",
+    "gesture": 3,
+    "rows": 3031,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G4.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-16_23.03.16",
+    "gesture": 4,
+    "rows": 2974,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G5.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-16_23.03.16",
+    "gesture": 5,
+    "rows": 3001,
+    "segments": 2
+  },
+  {
+    "file": "subject_08/2016-03-23/2_raw_data_12-16_23.03.16_G6.csv",
+    "subject": 8,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-16_23.03.16",
+    "gesture": 6,
+    "rows": 3510,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/1_raw_data_12-41_23.03.16_G0.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-41_23.03.16",
+    "gesture": 0,
+    "rows": 44623,
+    "segments": 13
+  },
+  {
+    "file": "subject_09/2016-03-23/1_raw_data_12-41_23.03.16_G1.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-41_23.03.16",
+    "gesture": 1,
+    "rows": 3616,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/1_raw_data_12-41_23.03.16_G2.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-41_23.03.16",
+    "gesture": 2,
+    "rows": 2851,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/1_raw_data_12-41_23.03.16_G3.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-41_23.03.16",
+    "gesture": 3,
+    "rows": 2712,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/1_raw_data_12-41_23.03.16_G4.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-41_23.03.16",
+    "gesture": 4,
+    "rows": 2829,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/1_raw_data_12-41_23.03.16_G5.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-41_23.03.16",
+    "gesture": 5,
+    "rows": 2815,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/1_raw_data_12-41_23.03.16_G6.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_12-41_23.03.16",
+    "gesture": 6,
+    "rows": 3324,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/2_raw_data_12-43_23.03.16_G0.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-43_23.03.16",
+    "gesture": 0,
+    "rows": 45784,
+    "segments": 13
+  },
+  {
+    "file": "subject_09/2016-03-23/2_raw_data_12-43_23.03.16_G1.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-43_23.03.16",
+    "gesture": 1,
+    "rows": 3467,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/2_raw_data_12-43_23.03.16_G2.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-43_23.03.16",
+    "gesture": 2,
+    "rows": 3168,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/2_raw_data_12-43_23.03.16_G3.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-43_23.03.16",
+    "gesture": 3,
+    "rows": 3126,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/2_raw_data_12-43_23.03.16_G4.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-43_23.03.16",
+    "gesture": 4,
+    "rows": 2947,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/2_raw_data_12-43_23.03.16_G5.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-43_23.03.16",
+    "gesture": 5,
+    "rows": 3235,
+    "segments": 2
+  },
+  {
+    "file": "subject_09/2016-03-23/2_raw_data_12-43_23.03.16_G6.csv",
+    "subject": 9,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_12-43_23.03.16",
+    "gesture": 6,
+    "rows": 3150,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/1_raw_data_11-08_21.03.16_G1.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_11-08_21.03.16",
+    "gesture": 1,
+    "rows": 4447,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/1_raw_data_11-08_21.03.16_G0.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_11-08_21.03.16",
+    "gesture": 0,
+    "rows": 41118,
+    "segments": 12
+  },
+  {
+    "file": "subject_10/2016-03-21/1_raw_data_11-08_21.03.16_G2.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_11-08_21.03.16",
+    "gesture": 2,
+    "rows": 3213,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/1_raw_data_11-08_21.03.16_G3.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_11-08_21.03.16",
+    "gesture": 3,
+    "rows": 3383,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/1_raw_data_11-08_21.03.16_G4.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_11-08_21.03.16",
+    "gesture": 4,
+    "rows": 3208,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/1_raw_data_11-08_21.03.16_G5.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_11-08_21.03.16",
+    "gesture": 5,
+    "rows": 3136,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/1_raw_data_11-08_21.03.16_G6.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_11-08_21.03.16",
+    "gesture": 6,
+    "rows": 3136,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/2_raw_data_11-10_21.03.16_G0.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_11-10_21.03.16",
+    "gesture": 0,
+    "rows": 40757,
+    "segments": 13
+  },
+  {
+    "file": "subject_10/2016-03-21/2_raw_data_11-10_21.03.16_G1.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_11-10_21.03.16",
+    "gesture": 1,
+    "rows": 3243,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/2_raw_data_11-10_21.03.16_G2.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_11-10_21.03.16",
+    "gesture": 2,
+    "rows": 3358,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/2_raw_data_11-10_21.03.16_G3.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_11-10_21.03.16",
+    "gesture": 3,
+    "rows": 3151,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/2_raw_data_11-10_21.03.16_G4.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_11-10_21.03.16",
+    "gesture": 4,
+    "rows": 3558,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/2_raw_data_11-10_21.03.16_G5.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_11-10_21.03.16",
+    "gesture": 5,
+    "rows": 3522,
+    "segments": 2
+  },
+  {
+    "file": "subject_10/2016-03-21/2_raw_data_11-10_21.03.16_G6.csv",
+    "subject": 10,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_11-10_21.03.16",
+    "gesture": 6,
+    "rows": 3859,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/1_raw_data_13-11_18.03.16_G0.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "1_raw_data_13-11_18.03.16",
+    "gesture": 0,
+    "rows": 49566,
+    "segments": 15
+  },
+  {
+    "file": "subject_11/2016-03-18/1_raw_data_13-11_18.03.16_G1.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "1_raw_data_13-11_18.03.16",
+    "gesture": 1,
+    "rows": 4020,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/1_raw_data_13-11_18.03.16_G2.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "1_raw_data_13-11_18.03.16",
+    "gesture": 2,
+    "rows": 3623,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/1_raw_data_13-11_18.03.16_G3.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "1_raw_data_13-11_18.03.16",
+    "gesture": 3,
+    "rows": 3451,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/1_raw_data_13-11_18.03.16_G4.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "1_raw_data_13-11_18.03.16",
+    "gesture": 4,
+    "rows": 3508,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/1_raw_data_13-11_18.03.16_G5.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "1_raw_data_13-11_18.03.16",
+    "gesture": 5,
+    "rows": 3398,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/1_raw_data_13-11_18.03.16_G6.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "1_raw_data_13-11_18.03.16",
+    "gesture": 6,
+    "rows": 3457,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/1_raw_data_13-11_18.03.16_G7.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "1_raw_data_13-11_18.03.16",
+    "gesture": 7,
+    "rows": 3658,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/2_raw_data_13-13_18.03.16_G0.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "2_raw_data_13-13_18.03.16",
+    "gesture": 0,
+    "rows": 47886,
+    "segments": 15
+  },
+  {
+    "file": "subject_11/2016-03-18/2_raw_data_13-13_18.03.16_G1.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "2_raw_data_13-13_18.03.16",
+    "gesture": 1,
+    "rows": 3593,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/2_raw_data_13-13_18.03.16_G2.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "2_raw_data_13-13_18.03.16",
+    "gesture": 2,
+    "rows": 3650,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/2_raw_data_13-13_18.03.16_G3.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "2_raw_data_13-13_18.03.16",
+    "gesture": 3,
+    "rows": 3586,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/2_raw_data_13-13_18.03.16_G4.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "2_raw_data_13-13_18.03.16",
+    "gesture": 4,
+    "rows": 3630,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/2_raw_data_13-13_18.03.16_G5.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "2_raw_data_13-13_18.03.16",
+    "gesture": 5,
+    "rows": 3649,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/2_raw_data_13-13_18.03.16_G6.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "2_raw_data_13-13_18.03.16",
+    "gesture": 6,
+    "rows": 3204,
+    "segments": 2
+  },
+  {
+    "file": "subject_11/2016-03-18/2_raw_data_13-13_18.03.16_G7.csv",
+    "subject": 11,
+    "date": "2016-03-18",
+    "recording": "2_raw_data_13-13_18.03.16",
+    "gesture": 7,
+    "rows": 3447,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/1_raw_data_11-35_28.03.16_G0.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_11-35_28.03.16",
+    "gesture": 0,
+    "rows": 44183,
+    "segments": 13
+  },
+  {
+    "file": "subject_12/2016-03-28/1_raw_data_11-35_28.03.16_G1.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_11-35_28.03.16",
+    "gesture": 1,
+    "rows": 3537,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/1_raw_data_11-35_28.03.16_G2.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_11-35_28.03.16",
+    "gesture": 2,
+    "rows": 3487,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/1_raw_data_11-35_28.03.16_G3.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_11-35_28.03.16",
+    "gesture": 3,
+    "rows": 3543,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/1_raw_data_11-35_28.03.16_G4.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_11-35_28.03.16",
+    "gesture": 4,
+    "rows": 3650,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/1_raw_data_11-35_28.03.16_G5.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_11-35_28.03.16",
+    "gesture": 5,
+    "rows": 3888,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/1_raw_data_11-35_28.03.16_G6.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_11-35_28.03.16",
+    "gesture": 6,
+    "rows": 3632,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/2_raw_data_11-36_28.03.16_G0.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_11-36_28.03.16",
+    "gesture": 0,
+    "rows": 40873,
+    "segments": 13
+  },
+  {
+    "file": "subject_12/2016-03-28/2_raw_data_11-36_28.03.16_G1.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_11-36_28.03.16",
+    "gesture": 1,
+    "rows": 3364,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/2_raw_data_11-36_28.03.16_G2.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_11-36_28.03.16",
+    "gesture": 2,
+    "rows": 3431,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/2_raw_data_11-36_28.03.16_G3.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_11-36_28.03.16",
+    "gesture": 3,
+    "rows": 3807,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/2_raw_data_11-36_28.03.16_G4.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_11-36_28.03.16",
+    "gesture": 4,
+    "rows": 3592,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/2_raw_data_11-36_28.03.16_G5.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_11-36_28.03.16",
+    "gesture": 5,
+    "rows": 3675,
+    "segments": 2
+  },
+  {
+    "file": "subject_12/2016-03-28/2_raw_data_11-36_28.03.16_G6.csv",
+    "subject": 12,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_11-36_28.03.16",
+    "gesture": 6,
+    "rows": 3889,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/1_raw_data_13-26_21.03.16_G1.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_13-26_21.03.16",
+    "gesture": 1,
+    "rows": 5755,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/1_raw_data_13-26_21.03.16_G0.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_13-26_21.03.16",
+    "gesture": 0,
+    "rows": 44494,
+    "segments": 12
+  },
+  {
+    "file": "subject_13/2016-03-21/1_raw_data_13-26_21.03.16_G2.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_13-26_21.03.16",
+    "gesture": 2,
+    "rows": 4358,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/1_raw_data_13-26_21.03.16_G3.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_13-26_21.03.16",
+    "gesture": 3,
+    "rows": 5035,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/1_raw_data_13-26_21.03.16_G5.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_13-26_21.03.16",
+    "gesture": 5,
+    "rows": 5333,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/1_raw_data_13-26_21.03.16_G4.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_13-26_21.03.16",
+    "gesture": 4,
+    "rows": 5547,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/1_raw_data_13-26_21.03.16_G6.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_13-26_21.03.16",
+    "gesture": 6,
+    "rows": 5154,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/2_raw_data_13-29_21.03.16_G0.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_13-29_21.03.16",
+    "gesture": 0,
+    "rows": 46040,
+    "segments": 13
+  },
+  {
+    "file": "subject_13/2016-03-21/2_raw_data_13-29_21.03.16_G1.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_13-29_21.03.16",
+    "gesture": 1,
+    "rows": 4449,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/2_raw_data_13-29_21.03.16_G2.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_13-29_21.03.16",
+    "gesture": 2,
+    "rows": 4295,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/2_raw_data_13-29_21.03.16_G3.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_13-29_21.03.16",
+    "gesture": 3,
+    "rows": 5664,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/2_raw_data_13-29_21.03.16_G4.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_13-29_21.03.16",
+    "gesture": 4,
+    "rows": 5414,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/2_raw_data_13-29_21.03.16_G5.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_13-29_21.03.16",
+    "gesture": 5,
+    "rows": 5334,
+    "segments": 2
+  },
+  {
+    "file": "subject_13/2016-03-21/2_raw_data_13-29_21.03.16_G6.csv",
+    "subject": 13,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_13-29_21.03.16",
+    "gesture": 6,
+    "rows": 6368,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G0.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_09-50_15.04.16",
+    "gesture": 0,
+    "rows": 34024,
+    "segments": 13
+  },
+  {
+    "file": "subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G1.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_09-50_15.04.16",
+    "gesture": 1,
+    "rows": 3181,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G2.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_09-50_15.04.16",
+    "gesture": 2,
+    "rows": 3099,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G3.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_09-50_15.04.16",
+    "gesture": 3,
+    "rows": 3137,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G4.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_09-50_15.04.16",
+    "gesture": 4,
+    "rows": 3089,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G5.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_09-50_15.04.16",
+    "gesture": 5,
+    "rows": 3170,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/1_raw_data_09-50_15.04.16_G6.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_09-50_15.04.16",
+    "gesture": 6,
+    "rows": 3121,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G0.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_09-51_15.04.16",
+    "gesture": 0,
+    "rows": 27939,
+    "segments": 13
+  },
+  {
+    "file": "subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G1.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_09-51_15.04.16",
+    "gesture": 1,
+    "rows": 3489,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G2.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_09-51_15.04.16",
+    "gesture": 2,
+    "rows": 3054,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G3.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_09-51_15.04.16",
+    "gesture": 3,
+    "rows": 3040,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G4.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_09-51_15.04.16",
+    "gesture": 4,
+    "rows": 3571,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G5.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_09-51_15.04.16",
+    "gesture": 5,
+    "rows": 3758,
+    "segments": 2
+  },
+  {
+    "file": "subject_14/2016-04-15/2_raw_data_09-51_15.04.16_G6.csv",
+    "subject": 14,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_09-51_15.04.16",
+    "gesture": 6,
+    "rows": 3331,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/1_raw_data_08-49_13.04.16_G0.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_08-49_13.04.16",
+    "gesture": 0,
+    "rows": 33781,
+    "segments": 13
+  },
+  {
+    "file": "subject_15/2016-04-13/1_raw_data_08-49_13.04.16_G1.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_08-49_13.04.16",
+    "gesture": 1,
+    "rows": 3014,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/1_raw_data_08-49_13.04.16_G2.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_08-49_13.04.16",
+    "gesture": 2,
+    "rows": 3188,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/1_raw_data_08-49_13.04.16_G3.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_08-49_13.04.16",
+    "gesture": 3,
+    "rows": 3072,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/1_raw_data_08-49_13.04.16_G4.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_08-49_13.04.16",
+    "gesture": 4,
+    "rows": 3218,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/1_raw_data_08-49_13.04.16_G5.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_08-49_13.04.16",
+    "gesture": 5,
+    "rows": 3423,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/1_raw_data_08-49_13.04.16_G6.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_08-49_13.04.16",
+    "gesture": 6,
+    "rows": 3857,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/2_raw_data_08-51_13.04.16_G0.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_08-51_13.04.16",
+    "gesture": 0,
+    "rows": 31697,
+    "segments": 13
+  },
+  {
+    "file": "subject_15/2016-04-13/2_raw_data_08-51_13.04.16_G1.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_08-51_13.04.16",
+    "gesture": 1,
+    "rows": 3501,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/2_raw_data_08-51_13.04.16_G2.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_08-51_13.04.16",
+    "gesture": 2,
+    "rows": 3230,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/2_raw_data_08-51_13.04.16_G3.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_08-51_13.04.16",
+    "gesture": 3,
+    "rows": 3468,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/2_raw_data_08-51_13.04.16_G4.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_08-51_13.04.16",
+    "gesture": 4,
+    "rows": 3469,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/2_raw_data_08-51_13.04.16_G5.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_08-51_13.04.16",
+    "gesture": 5,
+    "rows": 3039,
+    "segments": 2
+  },
+  {
+    "file": "subject_15/2016-04-13/2_raw_data_08-51_13.04.16_G6.csv",
+    "subject": 15,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_08-51_13.04.16",
+    "gesture": 6,
+    "rows": 3439,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/1_raw_data_12-12_25.04.16_G0.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "1_raw_data_12-12_25.04.16",
+    "gesture": 0,
+    "rows": 34488,
+    "segments": 13
+  },
+  {
+    "file": "subject_16/2016-04-25/1_raw_data_12-12_25.04.16_G1.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "1_raw_data_12-12_25.04.16",
+    "gesture": 1,
+    "rows": 3005,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/1_raw_data_12-12_25.04.16_G2.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "1_raw_data_12-12_25.04.16",
+    "gesture": 2,
+    "rows": 3304,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/1_raw_data_12-12_25.04.16_G3.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "1_raw_data_12-12_25.04.16",
+    "gesture": 3,
+    "rows": 3710,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/1_raw_data_12-12_25.04.16_G4.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "1_raw_data_12-12_25.04.16",
+    "gesture": 4,
+    "rows": 3287,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/1_raw_data_12-12_25.04.16_G5.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "1_raw_data_12-12_25.04.16",
+    "gesture": 5,
+    "rows": 3606,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/1_raw_data_12-12_25.04.16_G6.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "1_raw_data_12-12_25.04.16",
+    "gesture": 6,
+    "rows": 4089,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/2_raw_data_12-14_25.04.16_G0.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "2_raw_data_12-14_25.04.16",
+    "gesture": 0,
+    "rows": 28760,
+    "segments": 13
+  },
+  {
+    "file": "subject_16/2016-04-25/2_raw_data_12-14_25.04.16_G1.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "2_raw_data_12-14_25.04.16",
+    "gesture": 1,
+    "rows": 2737,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/2_raw_data_12-14_25.04.16_G2.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "2_raw_data_12-14_25.04.16",
+    "gesture": 2,
+    "rows": 3486,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/2_raw_data_12-14_25.04.16_G3.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "2_raw_data_12-14_25.04.16",
+    "gesture": 3,
+    "rows": 3577,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/2_raw_data_12-14_25.04.16_G4.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "2_raw_data_12-14_25.04.16",
+    "gesture": 4,
+    "rows": 3886,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/2_raw_data_12-14_25.04.16_G5.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "2_raw_data_12-14_25.04.16",
+    "gesture": 5,
+    "rows": 3684,
+    "segments": 2
+  },
+  {
+    "file": "subject_16/2016-04-25/2_raw_data_12-14_25.04.16_G6.csv",
+    "subject": 16,
+    "date": "2016-04-25",
+    "recording": "2_raw_data_12-14_25.04.16",
+    "gesture": 6,
+    "rows": 3882,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/1_raw_data_11-19_23.03.16_G0.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_11-19_23.03.16",
+    "gesture": 0,
+    "rows": 44946,
+    "segments": 13
+  },
+  {
+    "file": "subject_17/2016-03-23/1_raw_data_11-19_23.03.16_G1.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_11-19_23.03.16",
+    "gesture": 1,
+    "rows": 3264,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/1_raw_data_11-19_23.03.16_G2.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_11-19_23.03.16",
+    "gesture": 2,
+    "rows": 3390,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/1_raw_data_11-19_23.03.16_G3.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_11-19_23.03.16",
+    "gesture": 3,
+    "rows": 3318,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/1_raw_data_11-19_23.03.16_G4.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_11-19_23.03.16",
+    "gesture": 4,
+    "rows": 3280,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/1_raw_data_11-19_23.03.16_G5.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_11-19_23.03.16",
+    "gesture": 5,
+    "rows": 3344,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/1_raw_data_11-19_23.03.16_G6.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "1_raw_data_11-19_23.03.16",
+    "gesture": 6,
+    "rows": 3685,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/2_raw_data_11-20_23.03.16_G0.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_11-20_23.03.16",
+    "gesture": 0,
+    "rows": 46415,
+    "segments": 13
+  },
+  {
+    "file": "subject_17/2016-03-23/2_raw_data_11-20_23.03.16_G1.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_11-20_23.03.16",
+    "gesture": 1,
+    "rows": 3302,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/2_raw_data_11-20_23.03.16_G2.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_11-20_23.03.16",
+    "gesture": 2,
+    "rows": 3330,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/2_raw_data_11-20_23.03.16_G3.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_11-20_23.03.16",
+    "gesture": 3,
+    "rows": 3391,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/2_raw_data_11-20_23.03.16_G4.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_11-20_23.03.16",
+    "gesture": 4,
+    "rows": 3529,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/2_raw_data_11-20_23.03.16_G5.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_11-20_23.03.16",
+    "gesture": 5,
+    "rows": 3569,
+    "segments": 2
+  },
+  {
+    "file": "subject_17/2016-03-23/2_raw_data_11-20_23.03.16_G6.csv",
+    "subject": 17,
+    "date": "2016-03-23",
+    "recording": "2_raw_data_11-20_23.03.16",
+    "gesture": 6,
+    "rows": 3322,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/1_raw_data_12-35_21.03.16_G0.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_12-35_21.03.16",
+    "gesture": 0,
+    "rows": 40200,
+    "segments": 13
+  },
+  {
+    "file": "subject_18/2016-03-21/1_raw_data_12-35_21.03.16_G1.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_12-35_21.03.16",
+    "gesture": 1,
+    "rows": 3191,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/1_raw_data_12-35_21.03.16_G2.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_12-35_21.03.16",
+    "gesture": 2,
+    "rows": 3257,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/1_raw_data_12-35_21.03.16_G3.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_12-35_21.03.16",
+    "gesture": 3,
+    "rows": 4809,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/1_raw_data_12-35_21.03.16_G4.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_12-35_21.03.16",
+    "gesture": 4,
+    "rows": 3585,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/1_raw_data_12-35_21.03.16_G5.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_12-35_21.03.16",
+    "gesture": 5,
+    "rows": 3398,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/1_raw_data_12-35_21.03.16_G6.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_12-35_21.03.16",
+    "gesture": 6,
+    "rows": 3914,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/2_raw_data_12-37_21.03.16_G0.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_12-37_21.03.16",
+    "gesture": 0,
+    "rows": 45334,
+    "segments": 13
+  },
+  {
+    "file": "subject_18/2016-03-21/2_raw_data_12-37_21.03.16_G1.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_12-37_21.03.16",
+    "gesture": 1,
+    "rows": 3805,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/2_raw_data_12-37_21.03.16_G2.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_12-37_21.03.16",
+    "gesture": 2,
+    "rows": 3433,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/2_raw_data_12-37_21.03.16_G3.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_12-37_21.03.16",
+    "gesture": 3,
+    "rows": 3805,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/2_raw_data_12-37_21.03.16_G4.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_12-37_21.03.16",
+    "gesture": 4,
+    "rows": 3461,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/2_raw_data_12-37_21.03.16_G5.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_12-37_21.03.16",
+    "gesture": 5,
+    "rows": 3367,
+    "segments": 2
+  },
+  {
+    "file": "subject_18/2016-03-21/2_raw_data_12-37_21.03.16_G6.csv",
+    "subject": 18,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_12-37_21.03.16",
+    "gesture": 6,
+    "rows": 3753,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G0.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "1_raw_data_12-10_26.04.16",
+    "gesture": 0,
+    "rows": 36954,
+    "segments": 13
+  },
+  {
+    "file": "subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G1.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "1_raw_data_12-10_26.04.16",
+    "gesture": 1,
+    "rows": 2840,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G2.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "1_raw_data_12-10_26.04.16",
+    "gesture": 2,
+    "rows": 3801,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G3.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "1_raw_data_12-10_26.04.16",
+    "gesture": 3,
+    "rows": 3735,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G4.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "1_raw_data_12-10_26.04.16",
+    "gesture": 4,
+    "rows": 3741,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G5.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "1_raw_data_12-10_26.04.16",
+    "gesture": 5,
+    "rows": 4067,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/1_raw_data_12-10_26.04.16_G6.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "1_raw_data_12-10_26.04.16",
+    "gesture": 6,
+    "rows": 3680,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G0.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "2_raw_data_12-11_26.04.16",
+    "gesture": 0,
+    "rows": 29866,
+    "segments": 13
+  },
+  {
+    "file": "subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G1.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "2_raw_data_12-11_26.04.16",
+    "gesture": 1,
+    "rows": 3418,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G2.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "2_raw_data_12-11_26.04.16",
+    "gesture": 2,
+    "rows": 3459,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G3.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "2_raw_data_12-11_26.04.16",
+    "gesture": 3,
+    "rows": 3238,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G4.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "2_raw_data_12-11_26.04.16",
+    "gesture": 4,
+    "rows": 3897,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G5.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "2_raw_data_12-11_26.04.16",
+    "gesture": 5,
+    "rows": 3542,
+    "segments": 2
+  },
+  {
+    "file": "subject_19/2016-04-26/2_raw_data_12-11_26.04.16_G6.csv",
+    "subject": 19,
+    "date": "2016-04-26",
+    "recording": "2_raw_data_12-11_26.04.16",
+    "gesture": 6,
+    "rows": 3668,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/1_raw_data_11-41_22.03.16_G0.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_11-41_22.03.16",
+    "gesture": 0,
+    "rows": 43248,
+    "segments": 13
+  },
+  {
+    "file": "subject_20/2016-03-22/1_raw_data_11-41_22.03.16_G1.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_11-41_22.03.16",
+    "gesture": 1,
+    "rows": 3779,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/1_raw_data_11-41_22.03.16_G2.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_11-41_22.03.16",
+    "gesture": 2,
+    "rows": 3528,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/1_raw_data_11-41_22.03.16_G3.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_11-41_22.03.16",
+    "gesture": 3,
+    "rows": 3641,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/1_raw_data_11-41_22.03.16_G4.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_11-41_22.03.16",
+    "gesture": 4,
+    "rows": 3846,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/1_raw_data_11-41_22.03.16_G5.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_11-41_22.03.16",
+    "gesture": 5,
+    "rows": 3490,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/1_raw_data_11-41_22.03.16_G6.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "1_raw_data_11-41_22.03.16",
+    "gesture": 6,
+    "rows": 3817,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/2_raw_data_11-43_22.03.16_G0.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_11-43_22.03.16",
+    "gesture": 0,
+    "rows": 41449,
+    "segments": 13
+  },
+  {
+    "file": "subject_20/2016-03-22/2_raw_data_11-43_22.03.16_G1.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_11-43_22.03.16",
+    "gesture": 1,
+    "rows": 4159,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/2_raw_data_11-43_22.03.16_G2.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_11-43_22.03.16",
+    "gesture": 2,
+    "rows": 3639,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/2_raw_data_11-43_22.03.16_G3.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_11-43_22.03.16",
+    "gesture": 3,
+    "rows": 3296,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/2_raw_data_11-43_22.03.16_G4.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_11-43_22.03.16",
+    "gesture": 4,
+    "rows": 3149,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/2_raw_data_11-43_22.03.16_G5.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_11-43_22.03.16",
+    "gesture": 5,
+    "rows": 3193,
+    "segments": 2
+  },
+  {
+    "file": "subject_20/2016-03-22/2_raw_data_11-43_22.03.16_G6.csv",
+    "subject": 20,
+    "date": "2016-03-22",
+    "recording": "2_raw_data_11-43_22.03.16",
+    "gesture": 6,
+    "rows": 3619,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/1_raw_data_20-28_24.04.16_G0.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_20-28_24.04.16",
+    "gesture": 0,
+    "rows": 42689,
+    "segments": 13
+  },
+  {
+    "file": "subject_21/2016-04-24/1_raw_data_20-28_24.04.16_G1.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_20-28_24.04.16",
+    "gesture": 1,
+    "rows": 3056,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/1_raw_data_20-28_24.04.16_G2.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_20-28_24.04.16",
+    "gesture": 2,
+    "rows": 3717,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/1_raw_data_20-28_24.04.16_G3.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_20-28_24.04.16",
+    "gesture": 3,
+    "rows": 3599,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/1_raw_data_20-28_24.04.16_G4.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_20-28_24.04.16",
+    "gesture": 4,
+    "rows": 3028,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/1_raw_data_20-28_24.04.16_G5.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_20-28_24.04.16",
+    "gesture": 5,
+    "rows": 3217,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/1_raw_data_20-28_24.04.16_G6.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_20-28_24.04.16",
+    "gesture": 6,
+    "rows": 3059,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/2_raw_data_20-30_24.04.16_G0.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_20-30_24.04.16",
+    "gesture": 0,
+    "rows": 37578,
+    "segments": 13
+  },
+  {
+    "file": "subject_21/2016-04-24/2_raw_data_20-30_24.04.16_G1.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_20-30_24.04.16",
+    "gesture": 1,
+    "rows": 3229,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/2_raw_data_20-30_24.04.16_G2.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_20-30_24.04.16",
+    "gesture": 2,
+    "rows": 3120,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/2_raw_data_20-30_24.04.16_G3.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_20-30_24.04.16",
+    "gesture": 3,
+    "rows": 3221,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/2_raw_data_20-30_24.04.16_G4.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_20-30_24.04.16",
+    "gesture": 4,
+    "rows": 3135,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/2_raw_data_20-30_24.04.16_G5.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_20-30_24.04.16",
+    "gesture": 5,
+    "rows": 3388,
+    "segments": 2
+  },
+  {
+    "file": "subject_21/2016-04-24/2_raw_data_20-30_24.04.16_G6.csv",
+    "subject": 21,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_20-30_24.04.16",
+    "gesture": 6,
+    "rows": 3211,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G0.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_12-37_28.03.16",
+    "gesture": 0,
+    "rows": 42634,
+    "segments": 13
+  },
+  {
+    "file": "subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G1.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_12-37_28.03.16",
+    "gesture": 1,
+    "rows": 3077,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G2.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_12-37_28.03.16",
+    "gesture": 2,
+    "rows": 3164,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G3.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_12-37_28.03.16",
+    "gesture": 3,
+    "rows": 3101,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G4.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_12-37_28.03.16",
+    "gesture": 4,
+    "rows": 3112,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G5.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_12-37_28.03.16",
+    "gesture": 5,
+    "rows": 3400,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/1_raw_data_12-37_28.03.16_G6.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "1_raw_data_12-37_28.03.16",
+    "gesture": 6,
+    "rows": 3300,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G0.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_12-39_28.03.16",
+    "gesture": 0,
+    "rows": 38560,
+    "segments": 13
+  },
+  {
+    "file": "subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G1.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_12-39_28.03.16",
+    "gesture": 1,
+    "rows": 3056,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G2.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_12-39_28.03.16",
+    "gesture": 2,
+    "rows": 3560,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G3.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_12-39_28.03.16",
+    "gesture": 3,
+    "rows": 3069,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G4.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_12-39_28.03.16",
+    "gesture": 4,
+    "rows": 3096,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G5.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_12-39_28.03.16",
+    "gesture": 5,
+    "rows": 3385,
+    "segments": 2
+  },
+  {
+    "file": "subject_22/2016-03-28/2_raw_data_12-39_28.03.16_G6.csv",
+    "subject": 22,
+    "date": "2016-03-28",
+    "recording": "2_raw_data_12-39_28.03.16",
+    "gesture": 6,
+    "rows": 3115,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/1_raw_data_13-18_05.04.16_G0.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "1_raw_data_13-18_05.04.16",
+    "gesture": 0,
+    "rows": 36795,
+    "segments": 13
+  },
+  {
+    "file": "subject_23/2016-04-05/1_raw_data_13-18_05.04.16_G1.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "1_raw_data_13-18_05.04.16",
+    "gesture": 1,
+    "rows": 3961,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/1_raw_data_13-18_05.04.16_G2.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "1_raw_data_13-18_05.04.16",
+    "gesture": 2,
+    "rows": 3421,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/1_raw_data_13-18_05.04.16_G3.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "1_raw_data_13-18_05.04.16",
+    "gesture": 3,
+    "rows": 3699,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/1_raw_data_13-18_05.04.16_G4.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "1_raw_data_13-18_05.04.16",
+    "gesture": 4,
+    "rows": 4266,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/1_raw_data_13-18_05.04.16_G5.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "1_raw_data_13-18_05.04.16",
+    "gesture": 5,
+    "rows": 4313,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/1_raw_data_13-18_05.04.16_G6.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "1_raw_data_13-18_05.04.16",
+    "gesture": 6,
+    "rows": 3680,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/2_raw_data_13-19_05.04.16_G0.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "2_raw_data_13-19_05.04.16",
+    "gesture": 0,
+    "rows": 34513,
+    "segments": 13
+  },
+  {
+    "file": "subject_23/2016-04-05/2_raw_data_13-19_05.04.16_G1.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "2_raw_data_13-19_05.04.16",
+    "gesture": 1,
+    "rows": 3517,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/2_raw_data_13-19_05.04.16_G2.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "2_raw_data_13-19_05.04.16",
+    "gesture": 2,
+    "rows": 3487,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/2_raw_data_13-19_05.04.16_G3.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "2_raw_data_13-19_05.04.16",
+    "gesture": 3,
+    "rows": 3521,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/2_raw_data_13-19_05.04.16_G4.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "2_raw_data_13-19_05.04.16",
+    "gesture": 4,
+    "rows": 3630,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/2_raw_data_13-19_05.04.16_G5.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "2_raw_data_13-19_05.04.16",
+    "gesture": 5,
+    "rows": 3632,
+    "segments": 2
+  },
+  {
+    "file": "subject_23/2016-04-05/2_raw_data_13-19_05.04.16_G6.csv",
+    "subject": 23,
+    "date": "2016-04-05",
+    "recording": "2_raw_data_13-19_05.04.16",
+    "gesture": 6,
+    "rows": 3184,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G0.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_10-16_12.04.16",
+    "gesture": 0,
+    "rows": 40855,
+    "segments": 13
+  },
+  {
+    "file": "subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G1.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_10-16_12.04.16",
+    "gesture": 1,
+    "rows": 3389,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G2.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_10-16_12.04.16",
+    "gesture": 2,
+    "rows": 3394,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G3.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_10-16_12.04.16",
+    "gesture": 3,
+    "rows": 3305,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G4.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_10-16_12.04.16",
+    "gesture": 4,
+    "rows": 3740,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G5.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_10-16_12.04.16",
+    "gesture": 5,
+    "rows": 3762,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/1_raw_data_10-16_12.04.16_G6.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_10-16_12.04.16",
+    "gesture": 6,
+    "rows": 3523,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G0.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_10-17_12.04.16",
+    "gesture": 0,
+    "rows": 32297,
+    "segments": 13
+  },
+  {
+    "file": "subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G1.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_10-17_12.04.16",
+    "gesture": 1,
+    "rows": 3461,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G2.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_10-17_12.04.16",
+    "gesture": 2,
+    "rows": 3880,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G3.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_10-17_12.04.16",
+    "gesture": 3,
+    "rows": 3439,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G4.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_10-17_12.04.16",
+    "gesture": 4,
+    "rows": 3900,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G5.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_10-17_12.04.16",
+    "gesture": 5,
+    "rows": 4147,
+    "segments": 2
+  },
+  {
+    "file": "subject_24/2016-04-12/2_raw_data_10-17_12.04.16_G6.csv",
+    "subject": 24,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_10-17_12.04.16",
+    "gesture": 6,
+    "rows": 3848,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/1_raw_data_14-51_24.04.16_G0.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_14-51_24.04.16",
+    "gesture": 0,
+    "rows": 41437,
+    "segments": 13
+  },
+  {
+    "file": "subject_25/2016-04-24/1_raw_data_14-51_24.04.16_G1.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_14-51_24.04.16",
+    "gesture": 1,
+    "rows": 3601,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/1_raw_data_14-51_24.04.16_G2.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_14-51_24.04.16",
+    "gesture": 2,
+    "rows": 3785,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/1_raw_data_14-51_24.04.16_G3.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_14-51_24.04.16",
+    "gesture": 3,
+    "rows": 3545,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/1_raw_data_14-51_24.04.16_G4.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_14-51_24.04.16",
+    "gesture": 4,
+    "rows": 3420,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/1_raw_data_14-51_24.04.16_G5.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_14-51_24.04.16",
+    "gesture": 5,
+    "rows": 3466,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/1_raw_data_14-51_24.04.16_G6.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "1_raw_data_14-51_24.04.16",
+    "gesture": 6,
+    "rows": 3427,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/2_raw_data_14-53_24.04.16_G0.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_14-53_24.04.16",
+    "gesture": 0,
+    "rows": 35953,
+    "segments": 13
+  },
+  {
+    "file": "subject_25/2016-04-24/2_raw_data_14-53_24.04.16_G1.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_14-53_24.04.16",
+    "gesture": 1,
+    "rows": 3071,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/2_raw_data_14-53_24.04.16_G2.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_14-53_24.04.16",
+    "gesture": 2,
+    "rows": 3032,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/2_raw_data_14-53_24.04.16_G3.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_14-53_24.04.16",
+    "gesture": 3,
+    "rows": 3030,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/2_raw_data_14-53_24.04.16_G4.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_14-53_24.04.16",
+    "gesture": 4,
+    "rows": 2945,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/2_raw_data_14-53_24.04.16_G5.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_14-53_24.04.16",
+    "gesture": 5,
+    "rows": 3071,
+    "segments": 2
+  },
+  {
+    "file": "subject_25/2016-04-24/2_raw_data_14-53_24.04.16_G6.csv",
+    "subject": 25,
+    "date": "2016-04-24",
+    "recording": "2_raw_data_14-53_24.04.16",
+    "gesture": 6,
+    "rows": 2964,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/1_raw_data_10-22_29.03.16_G1.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "1_raw_data_10-22_29.03.16",
+    "gesture": 1,
+    "rows": 5684,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/1_raw_data_10-22_29.03.16_G0.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "1_raw_data_10-22_29.03.16",
+    "gesture": 0,
+    "rows": 35438,
+    "segments": 12
+  },
+  {
+    "file": "subject_26/2016-03-29/1_raw_data_10-22_29.03.16_G2.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "1_raw_data_10-22_29.03.16",
+    "gesture": 2,
+    "rows": 2857,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/1_raw_data_10-22_29.03.16_G3.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "1_raw_data_10-22_29.03.16",
+    "gesture": 3,
+    "rows": 3187,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/1_raw_data_10-22_29.03.16_G4.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "1_raw_data_10-22_29.03.16",
+    "gesture": 4,
+    "rows": 2777,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/1_raw_data_10-22_29.03.16_G5.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "1_raw_data_10-22_29.03.16",
+    "gesture": 5,
+    "rows": 3000,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/1_raw_data_10-22_29.03.16_G6.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "1_raw_data_10-22_29.03.16",
+    "gesture": 6,
+    "rows": 3208,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/2_raw_data_10-23_29.03.16_G0.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "2_raw_data_10-23_29.03.16",
+    "gesture": 0,
+    "rows": 31052,
+    "segments": 13
+  },
+  {
+    "file": "subject_26/2016-03-29/2_raw_data_10-23_29.03.16_G1.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "2_raw_data_10-23_29.03.16",
+    "gesture": 1,
+    "rows": 3035,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/2_raw_data_10-23_29.03.16_G2.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "2_raw_data_10-23_29.03.16",
+    "gesture": 2,
+    "rows": 3198,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/2_raw_data_10-23_29.03.16_G3.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "2_raw_data_10-23_29.03.16",
+    "gesture": 3,
+    "rows": 3233,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/2_raw_data_10-23_29.03.16_G4.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "2_raw_data_10-23_29.03.16",
+    "gesture": 4,
+    "rows": 3452,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/2_raw_data_10-23_29.03.16_G5.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "2_raw_data_10-23_29.03.16",
+    "gesture": 5,
+    "rows": 3024,
+    "segments": 2
+  },
+  {
+    "file": "subject_26/2016-03-29/2_raw_data_10-23_29.03.16_G6.csv",
+    "subject": 26,
+    "date": "2016-03-29",
+    "recording": "2_raw_data_10-23_29.03.16",
+    "gesture": 6,
+    "rows": 3009,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/1_raw_data_12-19_06.04.16_G0.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "1_raw_data_12-19_06.04.16",
+    "gesture": 0,
+    "rows": 35875,
+    "segments": 13
+  },
+  {
+    "file": "subject_27/2016-04-06/1_raw_data_12-19_06.04.16_G1.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "1_raw_data_12-19_06.04.16",
+    "gesture": 1,
+    "rows": 3880,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/1_raw_data_12-19_06.04.16_G2.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "1_raw_data_12-19_06.04.16",
+    "gesture": 2,
+    "rows": 3364,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/1_raw_data_12-19_06.04.16_G3.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "1_raw_data_12-19_06.04.16",
+    "gesture": 3,
+    "rows": 3364,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/1_raw_data_12-19_06.04.16_G4.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "1_raw_data_12-19_06.04.16",
+    "gesture": 4,
+    "rows": 3642,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/1_raw_data_12-19_06.04.16_G5.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "1_raw_data_12-19_06.04.16",
+    "gesture": 5,
+    "rows": 3443,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/1_raw_data_12-19_06.04.16_G6.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "1_raw_data_12-19_06.04.16",
+    "gesture": 6,
+    "rows": 3120,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/2_raw_data_12-20_06.04.16_G0.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "2_raw_data_12-20_06.04.16",
+    "gesture": 0,
+    "rows": 28785,
+    "segments": 13
+  },
+  {
+    "file": "subject_27/2016-04-06/2_raw_data_12-20_06.04.16_G1.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "2_raw_data_12-20_06.04.16",
+    "gesture": 1,
+    "rows": 3287,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/2_raw_data_12-20_06.04.16_G2.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "2_raw_data_12-20_06.04.16",
+    "gesture": 2,
+    "rows": 3322,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/2_raw_data_12-20_06.04.16_G3.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "2_raw_data_12-20_06.04.16",
+    "gesture": 3,
+    "rows": 3290,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/2_raw_data_12-20_06.04.16_G4.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "2_raw_data_12-20_06.04.16",
+    "gesture": 4,
+    "rows": 3667,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/2_raw_data_12-20_06.04.16_G5.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "2_raw_data_12-20_06.04.16",
+    "gesture": 5,
+    "rows": 3962,
+    "segments": 2
+  },
+  {
+    "file": "subject_27/2016-04-06/2_raw_data_12-20_06.04.16_G6.csv",
+    "subject": 27,
+    "date": "2016-04-06",
+    "recording": "2_raw_data_12-20_06.04.16",
+    "gesture": 6,
+    "rows": 3798,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G0.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_12-10_15.04.16",
+    "gesture": 0,
+    "rows": 34540,
+    "segments": 13
+  },
+  {
+    "file": "subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G1.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_12-10_15.04.16",
+    "gesture": 1,
+    "rows": 2486,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G2.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_12-10_15.04.16",
+    "gesture": 2,
+    "rows": 2382,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G3.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_12-10_15.04.16",
+    "gesture": 3,
+    "rows": 2583,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G4.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_12-10_15.04.16",
+    "gesture": 4,
+    "rows": 2876,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G5.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_12-10_15.04.16",
+    "gesture": 5,
+    "rows": 2698,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/1_raw_data_12-10_15.04.16_G6.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_12-10_15.04.16",
+    "gesture": 6,
+    "rows": 2948,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G0.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_12-11_15.04.16",
+    "gesture": 0,
+    "rows": 29982,
+    "segments": 13
+  },
+  {
+    "file": "subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G1.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_12-11_15.04.16",
+    "gesture": 1,
+    "rows": 2746,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G2.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_12-11_15.04.16",
+    "gesture": 2,
+    "rows": 3246,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G3.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_12-11_15.04.16",
+    "gesture": 3,
+    "rows": 2905,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G4.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_12-11_15.04.16",
+    "gesture": 4,
+    "rows": 2857,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G5.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_12-11_15.04.16",
+    "gesture": 5,
+    "rows": 2547,
+    "segments": 2
+  },
+  {
+    "file": "subject_28/2016-04-15/2_raw_data_12-11_15.04.16_G6.csv",
+    "subject": 28,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_12-11_15.04.16",
+    "gesture": 6,
+    "rows": 2970,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/1_raw_data_10-17_15.04.16_G0.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_10-17_15.04.16",
+    "gesture": 0,
+    "rows": 33345,
+    "segments": 13
+  },
+  {
+    "file": "subject_29/2016-04-15/1_raw_data_10-17_15.04.16_G1.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_10-17_15.04.16",
+    "gesture": 1,
+    "rows": 3046,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/1_raw_data_10-17_15.04.16_G2.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_10-17_15.04.16",
+    "gesture": 2,
+    "rows": 3118,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/1_raw_data_10-17_15.04.16_G3.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_10-17_15.04.16",
+    "gesture": 3,
+    "rows": 3984,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/1_raw_data_10-17_15.04.16_G4.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_10-17_15.04.16",
+    "gesture": 4,
+    "rows": 3472,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/1_raw_data_10-17_15.04.16_G5.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_10-17_15.04.16",
+    "gesture": 5,
+    "rows": 3323,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/1_raw_data_10-17_15.04.16_G6.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_10-17_15.04.16",
+    "gesture": 6,
+    "rows": 3616,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/2_raw_data_10-18_15.04.16_G0.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_10-18_15.04.16",
+    "gesture": 0,
+    "rows": 30748,
+    "segments": 13
+  },
+  {
+    "file": "subject_29/2016-04-15/2_raw_data_10-18_15.04.16_G1.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_10-18_15.04.16",
+    "gesture": 1,
+    "rows": 3271,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/2_raw_data_10-18_15.04.16_G2.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_10-18_15.04.16",
+    "gesture": 2,
+    "rows": 3342,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/2_raw_data_10-18_15.04.16_G3.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_10-18_15.04.16",
+    "gesture": 3,
+    "rows": 3511,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/2_raw_data_10-18_15.04.16_G4.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_10-18_15.04.16",
+    "gesture": 4,
+    "rows": 3587,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/2_raw_data_10-18_15.04.16_G5.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_10-18_15.04.16",
+    "gesture": 5,
+    "rows": 3938,
+    "segments": 2
+  },
+  {
+    "file": "subject_29/2016-04-15/2_raw_data_10-18_15.04.16_G6.csv",
+    "subject": 29,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_10-18_15.04.16",
+    "gesture": 6,
+    "rows": 3686,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/1_raw_data_09-49_21.03.16_G0.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_09-49_21.03.16",
+    "gesture": 0,
+    "rows": 51861,
+    "segments": 15
+  },
+  {
+    "file": "subject_30/2016-03-21/1_raw_data_09-49_21.03.16_G1.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_09-49_21.03.16",
+    "gesture": 1,
+    "rows": 4197,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/1_raw_data_09-49_21.03.16_G2.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_09-49_21.03.16",
+    "gesture": 2,
+    "rows": 3857,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/1_raw_data_09-49_21.03.16_G3.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_09-49_21.03.16",
+    "gesture": 3,
+    "rows": 3986,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/1_raw_data_09-49_21.03.16_G4.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_09-49_21.03.16",
+    "gesture": 4,
+    "rows": 3443,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/1_raw_data_09-49_21.03.16_G5.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_09-49_21.03.16",
+    "gesture": 5,
+    "rows": 3406,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/1_raw_data_09-49_21.03.16_G6.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_09-49_21.03.16",
+    "gesture": 6,
+    "rows": 3699,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/1_raw_data_09-49_21.03.16_G7.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "1_raw_data_09-49_21.03.16",
+    "gesture": 7,
+    "rows": 3429,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/2_raw_data_09-50_21.03.16_G0.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_09-50_21.03.16",
+    "gesture": 0,
+    "rows": 46319,
+    "segments": 15
+  },
+  {
+    "file": "subject_30/2016-03-21/2_raw_data_09-50_21.03.16_G1.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_09-50_21.03.16",
+    "gesture": 1,
+    "rows": 3850,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/2_raw_data_09-50_21.03.16_G2.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_09-50_21.03.16",
+    "gesture": 2,
+    "rows": 3422,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/2_raw_data_09-50_21.03.16_G3.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_09-50_21.03.16",
+    "gesture": 3,
+    "rows": 3494,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/2_raw_data_09-50_21.03.16_G4.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_09-50_21.03.16",
+    "gesture": 4,
+    "rows": 3618,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/2_raw_data_09-50_21.03.16_G5.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_09-50_21.03.16",
+    "gesture": 5,
+    "rows": 3294,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/2_raw_data_09-50_21.03.16_G6.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_09-50_21.03.16",
+    "gesture": 6,
+    "rows": 3524,
+    "segments": 2
+  },
+  {
+    "file": "subject_30/2016-03-21/2_raw_data_09-50_21.03.16_G7.csv",
+    "subject": 30,
+    "date": "2016-03-21",
+    "recording": "2_raw_data_09-50_21.03.16",
+    "gesture": 7,
+    "rows": 3162,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G1.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_11-15_11.04.16",
+    "gesture": 1,
+    "rows": 3785,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G0.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_11-15_11.04.16",
+    "gesture": 0,
+    "rows": 25611,
+    "segments": 12
+  },
+  {
+    "file": "subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G2.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_11-15_11.04.16",
+    "gesture": 2,
+    "rows": 3200,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G3.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_11-15_11.04.16",
+    "gesture": 3,
+    "rows": 3184,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G4.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_11-15_11.04.16",
+    "gesture": 4,
+    "rows": 3071,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G5.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_11-15_11.04.16",
+    "gesture": 5,
+    "rows": 3150,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/1_raw_data_11-15_11.04.16_G6.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "1_raw_data_11-15_11.04.16",
+    "gesture": 6,
+    "rows": 2926,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G0.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_11-16_11.04.16",
+    "gesture": 0,
+    "rows": 28031,
+    "segments": 13
+  },
+  {
+    "file": "subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G1.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_11-16_11.04.16",
+    "gesture": 1,
+    "rows": 3139,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G2.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_11-16_11.04.16",
+    "gesture": 2,
+    "rows": 2775,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G3.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_11-16_11.04.16",
+    "gesture": 3,
+    "rows": 3013,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G4.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_11-16_11.04.16",
+    "gesture": 4,
+    "rows": 3109,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G5.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_11-16_11.04.16",
+    "gesture": 5,
+    "rows": 2878,
+    "segments": 2
+  },
+  {
+    "file": "subject_31/2016-04-11/2_raw_data_11-16_11.04.16_G6.csv",
+    "subject": 31,
+    "date": "2016-04-11",
+    "recording": "2_raw_data_11-16_11.04.16",
+    "gesture": 6,
+    "rows": 3151,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/1_raw_data_12-04_27.04.16_G0.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "1_raw_data_12-04_27.04.16",
+    "gesture": 0,
+    "rows": 40494,
+    "segments": 13
+  },
+  {
+    "file": "subject_32/2016-04-27/1_raw_data_12-04_27.04.16_G1.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "1_raw_data_12-04_27.04.16",
+    "gesture": 1,
+    "rows": 3329,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/1_raw_data_12-04_27.04.16_G2.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "1_raw_data_12-04_27.04.16",
+    "gesture": 2,
+    "rows": 4111,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/1_raw_data_12-04_27.04.16_G3.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "1_raw_data_12-04_27.04.16",
+    "gesture": 3,
+    "rows": 3908,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/1_raw_data_12-04_27.04.16_G4.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "1_raw_data_12-04_27.04.16",
+    "gesture": 4,
+    "rows": 3452,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/1_raw_data_12-04_27.04.16_G5.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "1_raw_data_12-04_27.04.16",
+    "gesture": 5,
+    "rows": 3999,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/1_raw_data_12-04_27.04.16_G6.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "1_raw_data_12-04_27.04.16",
+    "gesture": 6,
+    "rows": 3426,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/2_raw_data_12-06_27.04.16_G0.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "2_raw_data_12-06_27.04.16",
+    "gesture": 0,
+    "rows": 34654,
+    "segments": 13
+  },
+  {
+    "file": "subject_32/2016-04-27/2_raw_data_12-06_27.04.16_G1.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "2_raw_data_12-06_27.04.16",
+    "gesture": 1,
+    "rows": 3321,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/2_raw_data_12-06_27.04.16_G2.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "2_raw_data_12-06_27.04.16",
+    "gesture": 2,
+    "rows": 3974,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/2_raw_data_12-06_27.04.16_G3.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "2_raw_data_12-06_27.04.16",
+    "gesture": 3,
+    "rows": 4363,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/2_raw_data_12-06_27.04.16_G4.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "2_raw_data_12-06_27.04.16",
+    "gesture": 4,
+    "rows": 4934,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/2_raw_data_12-06_27.04.16_G5.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "2_raw_data_12-06_27.04.16",
+    "gesture": 5,
+    "rows": 4605,
+    "segments": 2
+  },
+  {
+    "file": "subject_32/2016-04-27/2_raw_data_12-06_27.04.16_G6.csv",
+    "subject": 32,
+    "date": "2016-04-27",
+    "recording": "2_raw_data_12-06_27.04.16",
+    "gesture": 6,
+    "rows": 4360,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G0.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_09-49_12.04.16",
+    "gesture": 0,
+    "rows": 39974,
+    "segments": 13
+  },
+  {
+    "file": "subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G1.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_09-49_12.04.16",
+    "gesture": 1,
+    "rows": 3509,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G2.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_09-49_12.04.16",
+    "gesture": 2,
+    "rows": 2972,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G3.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_09-49_12.04.16",
+    "gesture": 3,
+    "rows": 3034,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G4.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_09-49_12.04.16",
+    "gesture": 4,
+    "rows": 3283,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G5.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_09-49_12.04.16",
+    "gesture": 5,
+    "rows": 3205,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/1_raw_data_09-49_12.04.16_G6.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "1_raw_data_09-49_12.04.16",
+    "gesture": 6,
+    "rows": 3040,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G0.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_09-50_12.04.16",
+    "gesture": 0,
+    "rows": 33324,
+    "segments": 13
+  },
+  {
+    "file": "subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G1.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_09-50_12.04.16",
+    "gesture": 1,
+    "rows": 3573,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G2.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_09-50_12.04.16",
+    "gesture": 2,
+    "rows": 3344,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G3.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_09-50_12.04.16",
+    "gesture": 3,
+    "rows": 3093,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G4.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_09-50_12.04.16",
+    "gesture": 4,
+    "rows": 3244,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G5.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_09-50_12.04.16",
+    "gesture": 5,
+    "rows": 3020,
+    "segments": 2
+  },
+  {
+    "file": "subject_33/2016-04-12/2_raw_data_09-50_12.04.16_G6.csv",
+    "subject": 33,
+    "date": "2016-04-12",
+    "recording": "2_raw_data_09-50_12.04.16",
+    "gesture": 6,
+    "rows": 3490,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/1_raw_data_10-51_07.04.16_G0.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "1_raw_data_10-51_07.04.16",
+    "gesture": 0,
+    "rows": 56924,
+    "segments": 13
+  },
+  {
+    "file": "subject_34/2016-04-07/1_raw_data_10-51_07.04.16_G1.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "1_raw_data_10-51_07.04.16",
+    "gesture": 1,
+    "rows": 4082,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/1_raw_data_10-51_07.04.16_G2.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "1_raw_data_10-51_07.04.16",
+    "gesture": 2,
+    "rows": 3899,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/1_raw_data_10-51_07.04.16_G3.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "1_raw_data_10-51_07.04.16",
+    "gesture": 3,
+    "rows": 3664,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/1_raw_data_10-51_07.04.16_G4.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "1_raw_data_10-51_07.04.16",
+    "gesture": 4,
+    "rows": 3650,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/1_raw_data_10-51_07.04.16_G5.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "1_raw_data_10-51_07.04.16",
+    "gesture": 5,
+    "rows": 3546,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/1_raw_data_10-51_07.04.16_G6.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "1_raw_data_10-51_07.04.16",
+    "gesture": 6,
+    "rows": 3999,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/2_raw_data_10-53_07.04.16_G0.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "2_raw_data_10-53_07.04.16",
+    "gesture": 0,
+    "rows": 28769,
+    "segments": 13
+  },
+  {
+    "file": "subject_34/2016-04-07/2_raw_data_10-53_07.04.16_G1.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "2_raw_data_10-53_07.04.16",
+    "gesture": 1,
+    "rows": 3471,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/2_raw_data_10-53_07.04.16_G2.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "2_raw_data_10-53_07.04.16",
+    "gesture": 2,
+    "rows": 3559,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/2_raw_data_10-53_07.04.16_G3.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "2_raw_data_10-53_07.04.16",
+    "gesture": 3,
+    "rows": 3610,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/2_raw_data_10-53_07.04.16_G4.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "2_raw_data_10-53_07.04.16",
+    "gesture": 4,
+    "rows": 4082,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/2_raw_data_10-53_07.04.16_G5.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "2_raw_data_10-53_07.04.16",
+    "gesture": 5,
+    "rows": 4164,
+    "segments": 2
+  },
+  {
+    "file": "subject_34/2016-04-07/2_raw_data_10-53_07.04.16_G6.csv",
+    "subject": 34,
+    "date": "2016-04-07",
+    "recording": "2_raw_data_10-53_07.04.16",
+    "gesture": 6,
+    "rows": 3783,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/1_raw_data_10-03_13.04.16_G0.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_10-03_13.04.16",
+    "gesture": 0,
+    "rows": 32279,
+    "segments": 13
+  },
+  {
+    "file": "subject_35/2016-04-13/1_raw_data_10-03_13.04.16_G1.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_10-03_13.04.16",
+    "gesture": 1,
+    "rows": 3071,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/1_raw_data_10-03_13.04.16_G2.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_10-03_13.04.16",
+    "gesture": 2,
+    "rows": 2995,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/1_raw_data_10-03_13.04.16_G3.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_10-03_13.04.16",
+    "gesture": 3,
+    "rows": 2883,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/1_raw_data_10-03_13.04.16_G4.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_10-03_13.04.16",
+    "gesture": 4,
+    "rows": 3051,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/1_raw_data_10-03_13.04.16_G5.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_10-03_13.04.16",
+    "gesture": 5,
+    "rows": 3226,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/1_raw_data_10-03_13.04.16_G6.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "1_raw_data_10-03_13.04.16",
+    "gesture": 6,
+    "rows": 2912,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/2_raw_data_10-05_13.04.16_G0.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_10-05_13.04.16",
+    "gesture": 0,
+    "rows": 28104,
+    "segments": 13
+  },
+  {
+    "file": "subject_35/2016-04-13/2_raw_data_10-05_13.04.16_G1.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_10-05_13.04.16",
+    "gesture": 1,
+    "rows": 3632,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/2_raw_data_10-05_13.04.16_G2.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_10-05_13.04.16",
+    "gesture": 2,
+    "rows": 3252,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/2_raw_data_10-05_13.04.16_G3.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_10-05_13.04.16",
+    "gesture": 3,
+    "rows": 3539,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/2_raw_data_10-05_13.04.16_G4.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_10-05_13.04.16",
+    "gesture": 4,
+    "rows": 3602,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/2_raw_data_10-05_13.04.16_G5.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_10-05_13.04.16",
+    "gesture": 5,
+    "rows": 3671,
+    "segments": 2
+  },
+  {
+    "file": "subject_35/2016-04-13/2_raw_data_10-05_13.04.16_G6.csv",
+    "subject": 35,
+    "date": "2016-04-13",
+    "recording": "2_raw_data_10-05_13.04.16",
+    "gesture": 6,
+    "rows": 3284,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/1_raw_data_13-03_15.04.16_G0.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_13-03_15.04.16",
+    "gesture": 0,
+    "rows": 33932,
+    "segments": 13
+  },
+  {
+    "file": "subject_36/2016-04-15/1_raw_data_13-03_15.04.16_G1.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_13-03_15.04.16",
+    "gesture": 1,
+    "rows": 3293,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/1_raw_data_13-03_15.04.16_G2.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_13-03_15.04.16",
+    "gesture": 2,
+    "rows": 3238,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/1_raw_data_13-03_15.04.16_G3.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_13-03_15.04.16",
+    "gesture": 3,
+    "rows": 3080,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/1_raw_data_13-03_15.04.16_G4.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_13-03_15.04.16",
+    "gesture": 4,
+    "rows": 3169,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/1_raw_data_13-03_15.04.16_G5.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_13-03_15.04.16",
+    "gesture": 5,
+    "rows": 2817,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/1_raw_data_13-03_15.04.16_G6.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "1_raw_data_13-03_15.04.16",
+    "gesture": 6,
+    "rows": 2861,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/2_raw_data_13-04_15.04.16_G0.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_13-04_15.04.16",
+    "gesture": 0,
+    "rows": 31606,
+    "segments": 13
+  },
+  {
+    "file": "subject_36/2016-04-15/2_raw_data_13-04_15.04.16_G1.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_13-04_15.04.16",
+    "gesture": 1,
+    "rows": 3098,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/2_raw_data_13-04_15.04.16_G2.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_13-04_15.04.16",
+    "gesture": 2,
+    "rows": 2855,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/2_raw_data_13-04_15.04.16_G3.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_13-04_15.04.16",
+    "gesture": 3,
+    "rows": 2998,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/2_raw_data_13-04_15.04.16_G4.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_13-04_15.04.16",
+    "gesture": 4,
+    "rows": 2757,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/2_raw_data_13-04_15.04.16_G5.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_13-04_15.04.16",
+    "gesture": 5,
+    "rows": 2926,
+    "segments": 2
+  },
+  {
+    "file": "subject_36/2016-04-15/2_raw_data_13-04_15.04.16_G6.csv",
+    "subject": 36,
+    "date": "2016-04-15",
+    "recording": "2_raw_data_13-04_15.04.16",
+    "gesture": 6,
+    "rows": 3124,
+    "segments": 2
+  }
+]
