@@ -56,19 +56,20 @@ footer{display:flex;justify-content:space-between;gap:12px;color:#788679;font-si
 <p class="eyebrow">01 / YOUR DEVICE</p><h2>Connect your orthosis</h2>
 <div class="statusline"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m7 7 10 10-5 4V3l5 4L7 17"/></svg><span id="state" role="status">Disconnected</span></div>
 <div class="actions"><button id="connect" disabled>Connect to Pi</button><button class="secondary" id="disconnect" disabled>Disconnect</button></div>
-<div class="readout"><p class="eyebrow">LIVE TEST COUNTER</p><strong id="count" aria-label="Live test counter">—</strong><small>Updates arrive from the Pi while subscribed.</small></div>
+<div class="readout"><p class="eyebrow">LIVE TEST COUNTER</p><strong id="count" aria-label="Live test counter">—</strong><small id="update-mode">Updates use direct Bluetooth reads.</small></div>
 <button id="ping" class="secondary" disabled>Send test ping <span aria-hidden="true">↗</span></button><p id="reply" role="status">Waiting for data.</p>
+<p class="note"><label><input id="live" type="checkbox" checked> Update counter with direct reads every second</label></p><p class="note">PING/PONG tests notifications separately and pauses live reads briefly.</p><div class="rule"></div><button id="read" class="secondary" disabled>Read Pi status</button><p id="read-result" class="note" role="status">Diagnostic: request the latest value directly, separately from notifications.</p>
 </section>
 <section class="card">
 <p class="eyebrow">02 / GET STARTED</p><h2>A little setup.<br>Then you’re connected.</h2>
-<ol class="steps"><li><strong>Start your Pi</strong>Run the BLE server and leave it running.</li><li><strong>Choose your device</strong>Turn on Bluetooth, tap Connect to Pi, and select your orthosis.</li><li><strong>Check the link</strong>Watch the counter update. Send a test ping and look for PONG.</li></ol>
+<ol class="steps"><li><strong>Start your Pi</strong>Run the BLE server and leave it running.</li><li><strong>Choose your device</strong>Turn on Bluetooth, tap Connect to Pi, and select your orthosis.</li><li><strong>Check the link</strong>Watch the counter update. Direct reads keep the counter updated. The ping button separately tests notification delivery.</li></ol>
 <div class="rule"></div><p class="note">Saved as a single HTML file. Once downloaded, this interface needs no internet or browser cache. Keep the original under your phone’s local files so you can reopen it.</p>
 <p class="note">Use one connected tab at a time.</p>
 </section>
 <details class="card"><summary>Connection log</summary><div class="detail-body"><pre id="log" aria-live="polite">Ready.</pre></div></details>
-<details class="card"><summary>Technical details</summary><div class="detail-body"><p id="js">JavaScript has not run. Open this file in a browser that supports Bluetooth.</p><dl><dt>Bluetooth API</dt><dd id="api">—</dd><dt>Secure context</dt><dd id="secure">—</dd><dt>Protocol</dt><dd id="protocol">—</dd><dt>Page address</dt><dd id="url">—</dd></dl><p class="note">A file: address means a local file. An https: address means a hosted copy. Bluetooth support depends on the browser.</p></div></details>
+<details class="card"><summary>Technical details</summary><div class="detail-body"><p id="js">JavaScript has not run. Open this file in a browser that supports Bluetooth.</p><dl><dt>Value events</dt><dd id="events">0</dd><dt>Bluetooth API</dt><dd id="api">—</dd><dt>Secure context</dt><dd id="secure">—</dd><dt>Protocol</dt><dd id="protocol">—</dd><dt>Page address</dt><dd id="url">—</dd></dl><p class="note">A file: address means a local file. An https: address means a hosted copy. Bluetooth support depends on the browser.</p></div></details>
 </div>
-<footer><span>CLAW · Connection prototype</span><span>Local edition 0.2 · No EMG or motor control</span></footer>
+<footer><span>CLAW · Connection prototype</span><span>Local edition 0.4 · No EMG or motor control</span></footer>
 </main>
 <script>
 'use strict';
@@ -78,10 +79,33 @@ const STATUS='802b1002-6a92-4a6f-9b2b-769c88951a01';
 const el=id=>document.getElementById(id);
 let device=null,command=null,characteristic=null,pingTimer=null,busy=false;
 const decoder=new TextDecoder();
+let valueEvents=0,reading=false,pollTimer=null,pollGeneration=0;
 function describe(e){if(e?.message)return (e.name?e.name+': ':'')+e.message;if(typeof e==='string')return e;try{return JSON.stringify(e)??String(e);}catch{return String(e);}}
 function log(s){el('log').textContent=(new Date().toLocaleTimeString()+' '+s+'\n'+el('log').textContent).slice(0,8000);}
-function reset(){if(characteristic)characteristic.removeEventListener('characteristicvaluechanged',onValue);clearTimeout(pingTimer);pingTimer=null;command=null;characteristic=null;el('connect').disabled=!navigator.bluetooth;el('ping').disabled=true;el('disconnect').disabled=true;el('state').textContent='Disconnected';el('count').textContent='—';}
-function onValue(event){try{const value=event.target?.value??event.currentTarget?.value;if(!value){log('Notification event has no value');return;}const msg=decoder.decode(value);if(msg.startsWith('T:'))el('count').textContent=msg.slice(2);else{log('Pi → '+msg);if(msg==='PONG'){clearTimeout(pingTimer);pingTimer=null;el('ping').disabled=false;el('reply').textContent='PONG received.';}}}catch(e){log('Receive error: '+describe(e));}}
+function reset(){stopPolling();if(characteristic)characteristic.removeEventListener('characteristicvaluechanged',onValue);clearTimeout(pingTimer);pingTimer=null;command=null;characteristic=null;el('connect').disabled=!navigator.bluetooth;el('ping').disabled=true;el('disconnect').disabled=true;el('state').textContent='Disconnected';el('update-mode').textContent='No active connection';el('count').textContent='—';el('read').disabled=true;valueEvents=0;el('events').textContent='0';}
+function decodeValue(value){
+ if(value==null)throw new Error('No value returned');
+ if(typeof value==='string')return value;
+ if(Array.isArray(value))return decoder.decode(Uint8Array.from(value));
+ if(value instanceof ArrayBuffer || ArrayBuffer.isView(value))return decoder.decode(value);
+ throw new Error('Unexpected value type: '+Object.prototype.toString.call(value));
+}
+function onValue(event){
+ valueEvents++;el('events').textContent=String(valueEvents);
+ try{
+  const value=event.target?.value??event.currentTarget?.value??event.value??characteristic?.value;
+  const msg=decodeValue(value);
+  if(valueEvents===1)log('First value event received: '+msg);
+  if(msg.startsWith('T:'))el('count').textContent=msg.slice(2);
+  else{
+   log('Pi → '+msg);
+   if(msg==='PONG'){
+    clearTimeout(pingTimer);pingTimer=null;
+    el('ping').disabled=false;el('reply').textContent='PONG received.';
+   }
+  }
+ }catch(e){log('Value event decoding failed: '+describe(e));}
+}
 el('js').textContent='JavaScript is running.';
 el('url').textContent=location.href;el('protocol').textContent=location.protocol;
 el('secure').textContent=String(window.isSecureContext);
@@ -97,22 +121,69 @@ el('connect').onclick=async()=>{
   command=await service.getCharacteristic(COMMAND);
   characteristic=await service.getCharacteristic(STATUS);
   characteristic.addEventListener('characteristicvaluechanged',onValue);
-  await characteristic.startNotifications();
-  el('state').textContent='Connected; notifications requested';
-  el('ping').disabled=false;el('disconnect').disabled=false;
+  try{await characteristic.startNotifications();log('Notifications requested; delivery verified only when events arrive.');}catch(e){log('Notifications unavailable; direct reads remain available: '+describe(e));}
+  el('state').textContent='Connected';
+  el('ping').disabled=false;el('disconnect').disabled=false;el('read').disabled=false;
   log('Connected to '+(device.name||'selected device')+'.');
  }catch(e){log('Connect error: '+describe(e));device?.gatt?.disconnect();reset();}
- finally{busy=false;}
+ finally{busy=false;if(characteristic&&el('live').checked)startPolling();}
 };
 el('ping').onclick=async()=>{
- if(!command||pingTimer)return;
- el('ping').disabled=true;el('reply').textContent='Waiting for PONG…';
- pingTimer=setTimeout(()=>{pingTimer=null;el('ping').disabled=!command;el('reply').textContent='No PONG within 5 seconds.';},5000);
+ if(!command||pingTimer||reading||busy)return;
+ el('ping').disabled=true;el('reply').textContent='Waiting for PONG notification; live reads paused…';
+ pingTimer=setTimeout(()=>{pingTimer=null;el('ping').disabled=!command;el('reply').textContent='No PONG notification within 5 seconds. Live reads will resume.';},5000);
  try{await command.writeValueWithResponse(new TextEncoder().encode('PING'));log('Phone → PING');}
  catch(e){clearTimeout(pingTimer);pingTimer=null;el('ping').disabled=!command;el('reply').textContent='PING failed';log('Write error: '+describe(e));}
 };
+function stopPolling(){
+ pollGeneration++;clearTimeout(pollTimer);pollTimer=null;
+}
+function startPolling(){
+ stopPolling();
+ const generation=pollGeneration;
+ async function tick(){
+  if(generation!==pollGeneration||!characteristic||!el('live').checked)return;
+  if(!busy&&!reading&&!pingTimer)await readStatus(true);
+  if(generation===pollGeneration&&characteristic&&el('live').checked)
+   pollTimer=setTimeout(tick,1000);
+ }
+ el('update-mode').textContent='Direct reads · about once per second';
+ pollTimer=setTimeout(tick,0);
+}
+async function readStatus(live){
+ if(!characteristic||reading||busy)return;
+ if(pingTimer){if(!live)log('Wait for the PING notification test to finish, then read.');return;}
+ const current=characteristic;reading=true;el('read').disabled=true;el('ping').disabled=true;
+ try{
+  const raw=await current.readValue();
+  if(current!==characteristic)return;
+  const msg=decodeValue(raw);
+  el('read-result').textContent='Direct read returned: '+msg;
+  if(!live)log('Direct read returned: '+msg);
+  if(msg.startsWith('T:')){
+   el('count').textContent=msg.slice(2);
+   el('update-mode').textContent='Direct read received · '+new Date().toLocaleTimeString();
+  }
+  // PONG readbacks are snapshots, not proof of notification delivery.
+ }catch(e){
+  if(current===characteristic){
+   el('read-result').textContent='Direct read failed: '+describe(e);
+   el('update-mode').textContent='Direct read failed · displayed value may be stale';
+   log('Direct read failed: '+describe(e));
+  }
+ }finally{
+  reading=false;
+  el('read').disabled=!characteristic||busy;
+  el('ping').disabled=!command||!!pingTimer||busy;
+ }
+}
+el('read').onclick=()=>readStatus(false);
+el('live').onchange=()=>{
+ if(el('live').checked&&characteristic)startPolling();
+ else{stopPolling();el('update-mode').textContent=characteristic?'Automatic reads off · listening for value events':'No active connection';}
+};
 el('disconnect').onclick=async()=>{
- if(busy)return;busy=true;el('disconnect').disabled=true;el('ping').disabled=true;
+ if(busy)return;busy=true;stopPolling();el('disconnect').disabled=true;el('ping').disabled=true;
  const current=device,currentChar=characteristic;
  try{
   if(current?.gatt?.connected&&currentChar){
