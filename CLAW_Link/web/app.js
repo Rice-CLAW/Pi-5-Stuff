@@ -22,6 +22,7 @@ $('disconnect').onclick = async () => {
 
   try {
     if (currentDevice?.gatt?.connected && currentStatus) {
+      log('Stopping notifications…');
       await currentStatus.stopNotifications();
       currentStatus.removeEventListener(
         'characteristicvaluechanged',
