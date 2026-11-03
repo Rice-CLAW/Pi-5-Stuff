@@ -1,2 +1,7 @@
 CLAW_Link/pi/.venv/
 CLAW_Link/pi/__pycache__/
+
+# Local credentials and Python environment
+/.git-credentials
+/CLAW_Link/pi/.venv/
+/CLAW_Link/pi/__pycache__/

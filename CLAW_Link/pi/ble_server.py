@@ -22,7 +22,7 @@ async def main():
     server.read_request_func = lambda characteristic, **kwargs: characteristic.value
     server.write_request_func = write
     await server.add_new_service(SERVICE)
-    await server.add_new_characteristic(SERVICE, COMMAND, Props.write, bytearray(), Perms.writable)
+    await server.add_new_characteristic(SERVICE, COMMAND, Props.write, bytearray(), Perms.writeable)
     await server.add_new_characteristic(SERVICE, STATUS, Props.read | Props.notify,
                                         bytearray(b"READY"), Perms.readable)
 
