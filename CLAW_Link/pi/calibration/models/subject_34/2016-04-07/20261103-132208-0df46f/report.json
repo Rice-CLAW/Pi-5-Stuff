@@ -1,0 +1,24 @@
+{
+  "dataset": "gestures",
+  "session": "subject_34/2016-04-07",
+  "train_recording": "1_raw_data_10-51_07.04.16",
+  "test_recordings": [
+    "2_raw_data_10-53_07.04.16"
+  ],
+  "features": "hudgins",
+  "window": 250,
+  "step": 125,
+  "threshold": 1e-05,
+  "seed": 1472561839,
+  "labels": [
+    "Hand at rest",
+    "Fist",
+    "Wrist flexion",
+    "Wrist extension",
+    "Radial deviation",
+    "Ulnar deviation"
+  ],
+  "test_accuracy": 1.0,
+  "train_windows": 166,
+  "test_windows": 163
+}
