@@ -1,82 +1,60 @@
 
-import csv
-import numpy as np
-from sklearn.metrics import accuracy_score
 import sys
 from pathlib import Path
+import numpy as np
+from sklearn.metrics import accuracy_score
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from emg_common import ROOT, records, model
-from emg_features import extract
+from emg_common import ROOT, records, windows, model
 
 # Settings
-SESSION = "subject_01/2016-03-22"
-TRAIN_SECONDS = [3, 4, 5]
-WINDOW_MS = [100, 150, 250]
-SAMPLE_RATE = 1000
+SUBJECT = "subject_1"
+TRAIN_REPETITIONS = [1, 2, 3, 4, 5]
+WINDOW_SAMPLES = [25, 50, 100, 150, 250]
+TEST_REPETITION = 6
 SEED = 42
 
-# Load one participant's two recordings
-path = ROOT / "EMG_data/gestures_csv"
-data = [r for r in records("gestures", path) if r[1] == SESSION]
+# Load one participant's recordings
+path = ROOT / "EMG_data/mendeley_data/EMG_DATA/data/csv_data"
+data = [r for r in records("mendeley", path) if r[1] == SUBJECT]
+
 if not data:
-    raise ValueError("Session not found")
+    raise ValueError("Subject not found")
 
-recordings = sorted({r[2] for r in data})
-if len(recordings) != 2:
-    raise ValueError("Expected exactly two recordings for this session")
+available = {int(r[2]) for r in data}
+if TEST_REPETITION not in available or any(n < 1 or n >= TEST_REPETITION for n in TRAIN_REPETITIONS):
+    raise ValueError("Training repetitions must be 1–5; R6 is reserved for testing")
 
-train_recording, test_recording = recordings
+# Compare repetitions and classification windows
+print("Subject:", SUBJECT)
+print("Training: R1 through Rn; Testing: R6")
+print("Window sizes are measured in samples")
+print(f"{'Reps':>5} {'Window':>8} {'Train windows':>14} {'Test windows':>13} {'LDA':>9} {'RF':>9} {'SVM':>9}", flush=True)
+print("-" * 78)
 
-# Read each gesture file and preserve segment boundaries
-def read_segments(record):
-    with open(record[0], newline="") as f:
-        rows = list(csv.DictReader(f))
-    groups = {}
-    for row in rows:
-        signal = [float(row[f"Channel_{i}"]) for i in range(1, 9)]
-        groups.setdefault(row["Segment"], []).append(signal)
-    return [np.array(group) for group in groups.values()]
+for window_size in WINDOW_SAMPLES:
+    features = {}
 
-train_data = [(r[3], read_segments(r)) for r in data if r[2] == train_recording]
-test_data = [(r[3], read_segments(r)) for r in data if r[2] == test_recording]
+    for r in data:
+        features[(int(r[2]), r[3])] = windows(r, "mendeley", window_size, max(1, window_size // 2), "hudgins", 1.0)
 
-# Create overlapping windows without crossing segment boundaries
-def make_features(dataset, window, training_seconds=None):
-    X, y = [], []
-    for label, segments in dataset:
-        for segment in segments:
-            if training_seconds is not None:
-                limit = round(training_seconds * SAMPLE_RATE / len(segments))
-                if limit > len(segment):
-                    raise ValueError(f"Not enough data for gesture {label}: requested {training_seconds} seconds")
-                segment = segment[:limit]
-            for start in range(0, len(segment) - window + 1, max(1, window // 2)):
-                X.append(extract(segment[start:start + window], "hudgins", 1e-5))
-                y.append(label)
-    return np.array(X), np.array(y)
+    for n in TRAIN_REPETITIONS:
+        train = [(x, label) for (rep, label), x in features.items() if rep <= n]
+        test = [(x, label) for (rep, label), x in features.items() if rep == TEST_REPETITION]
 
-# Compare models for each training duration and window size
-print("Session:", SESSION)
-print("Training recording:", train_recording)
-print("Testing recording:", test_recording)
-print("Training seconds per gesture:", TRAIN_SECONDS)
-print("Classification windows (ms):", WINDOW_MS)
-print()
-print(f"{'Train (s)':>9} {'Window (ms)':>12} {'Train windows':>14} {'Test windows':>13} {'LDA':>9} {'RF':>9} {'SVM':>9}")
-print("-" * 82)
+        X_train = np.concatenate([x for x, label in train])
+        y_train = np.concatenate([np.full(len(x), label) for x, label in train])
+        X_test = np.concatenate([x for x, label in test])
+        y_test = np.concatenate([np.full(len(x), label) for x, label in test])
 
-for seconds in TRAIN_SECONDS:
-    for milliseconds in WINDOW_MS:
-        window = round(milliseconds * SAMPLE_RATE / 1000)
-        X_train, y_train = make_features(train_data, window, seconds)
-        X_test, y_test = make_features(test_data, window)
         scores = []
 
         for kind in ["lda", "rf", "svm"]:
             clf = model(kind, SEED)
+
             if kind == "rf":
                 clf.set_params(n_jobs=1)
+
             clf.fit(X_train, y_train)
             scores.append(accuracy_score(y_test, clf.predict(X_test)))
 
-        print(f"{seconds:>9.1f} {milliseconds:>12} {len(X_train):>14} {len(X_test):>13} {scores[0]:>8.1%} {scores[1]:>9.1%} {scores[2]:>9.1%}", flush=True)
+        print(f"{n:>5} {window_size:>8} {len(X_train):>14} {len(X_test):>13} {scores[0]:>8.1%} {scores[1]:>9.1%} {scores[2]:>9.1%}", flush=True)
