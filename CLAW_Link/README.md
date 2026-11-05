@@ -15,7 +15,7 @@ python3 -m venv .venv
 
 The server uses the converted `gestures_csv` dataset, including its `manifest.json`. If the data check cannot find it, pass `--data-dir /path/to/gestures_csv` to both server commands.
 
-1. Save `web/claw-calibration.html` on your phone and open it in a browser app that supports Bluetooth from local HTML files.
+1. Save `web/claw-calibration.html` on your phone and open it in a browser app that supports Bluetooth from local HTML files. For Android most browser's should be able to do this, for IOS I've only been able to find this that works: https://apps.apple.com/us/app/bluetooth-browser/id6455128847
 2. Tap **Connect to Pi**, select **CLAW-Pi**, and tap **Calibrate**.
 3. Start each gesture when prompted. After the sixth step, the Pi trains the model and switches to inference mode. The eight simulated signal graphs then start updating.
 
