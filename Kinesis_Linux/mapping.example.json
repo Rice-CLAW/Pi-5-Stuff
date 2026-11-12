@@ -1,0 +1,36 @@
+{
+  "dial_up": [
+    "KEY_VOLUMEUP"
+  ],
+  "dial_down": [
+    "KEY_VOLUMEDOWN"
+  ],
+  "swipe_left": [
+    "KEY_LEFTCTRL",
+    "KEY_LEFTALT",
+    "KEY_LEFT"
+  ],
+  "swipe_right": [
+    "KEY_LEFTCTRL",
+    "KEY_LEFTALT",
+    "KEY_RIGHT"
+  ],
+  "swipe_up": [
+    "KEY_LEFTMETA"
+  ],
+  "swipe_down": [
+    "KEY_ESC"
+  ],
+  "index_tap": [
+    "KEY_PLAYPAUSE"
+  ],
+  "index_doubletap": [
+    "KEY_MUTE"
+  ],
+  "middle_tap": [
+    "KEY_NEXTSONG"
+  ],
+  "middle_doubletap": [
+    "KEY_PREVIOUSSONG"
+  ]
+}

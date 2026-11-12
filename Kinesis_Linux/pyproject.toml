@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kinesis-linux-experimental"
+version = "0.1.0"
+description = "Experimental Linux port of callbacked/kinesis for the Meta Neural Band"
+requires-python = ">=3.11"
+dependencies = ["bleak>=1.1,<3", "cryptography>=43", "requests>=2.32,<3", "dbus-fast>=2; sys_platform == 'linux'"]
+
+[project.scripts]
+kinesis-linux = "kinesis_linux.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kinesis_linux*"]
