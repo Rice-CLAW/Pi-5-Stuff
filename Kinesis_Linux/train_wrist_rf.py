@@ -32,8 +32,8 @@ WINDOW = 512  # 250 ms
 HOP = 256     # 125 ms
 MIN_BATCHES = 24  # 75% of a 32-batch feature window
 FEATURE_NAMES = ("mean_absolute_value", "rms", "waveform_length")
-TRAIN_REPS = 4
-TOTAL_REPS = 6
+TRAIN_REPS = 3
+TOTAL_REPS = 4
 
 
 @dataclass
