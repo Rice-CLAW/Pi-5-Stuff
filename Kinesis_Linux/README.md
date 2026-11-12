@@ -114,9 +114,10 @@ chmod 600 ~/.local/state/kinesis-linux/meta-session.json
 
 ## 4. Connect and enroll the band
 
-Wake the band and run these commands on the Pi. Set `BAND_MAC` first if you switched terminals.
+Wake the band and run these commands on the Pi. Set `BAND_MAC` first if you switched terminals. No need to enroll if already enrolled though.
 
 ```bash
+BAND_MAC=A4:0E:2B:92:6C:59
 bash connect_neural_band.sh "$BAND_MAC" &&
   .venv/bin/kinesis-linux enroll --address "$BAND_MAC"
 ```
