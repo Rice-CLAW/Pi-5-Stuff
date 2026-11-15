@@ -2,7 +2,7 @@ from time import sleep
 
 from gpiozero import DigitalOutputDevice, PWMOutputDevice
 
-DUTY_CYCLE = 90 / 255  # Same duty cycle as the Arduino sketch.
+DUTY_CYCLE = 230 / 255  # Same duty cycle as the Arduino sketch.
 
 with (
     DigitalOutputDevice(25, initial_value=False) as standby_pin,
